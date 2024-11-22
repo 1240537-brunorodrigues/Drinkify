@@ -451,7 +451,7 @@ let questions = [
             "Richard Branson",
             "Tim Cook"
         ],
-        correct: "És rix, podes encher o copo de alguém à tua escolha.",
+        correct: "És rico, podes encher o copo de alguém à tua escolha.",
         incorrect: "És pobre, ficas 1 ronda sem cadeira."
     },
     {
@@ -1793,4 +1793,82 @@ let questions = [
         correct: "Certo! Escolhe alguém para foder o fígado e beber metade do copo.",
         incorrect: "Nope. Enche o teu copo e bebe metade ou recua 20 casas."
     },
+    {
+        numb: 138,
+        question: "Qual das seguintes cidades não foi destruída por fogo?",
+        answer: "Paris",
+        options: [
+            "Roma",
+            "Londres",
+            "Chicago",
+            "Paris"
+        ],
+        correct: "És um verdadeiro protetor da cultura. Escolhe alguém para criar contigo uma torre humana. Se a torre não cair, distribui 3 goles.",
+        incorrect: "Queimaste as possibilidades… agora deves permanecer com as mãos para cima, como se fosses a estátua da liberdade, durante 1 ronda. Caso não o faças, bebe 2 goles."
+    },
+    {
+        numb: 139,
+        question: "Acredita-se que o isocianato de metilo é o culpado pela libertação de gás de uma fábrica da Union Carbide que custou mais de 2.000 vidas em que comunidade indiana?",
+        answer: "Bhopal",
+        options: [
+            "Calcutta",
+            "Bombay",
+            "Nova Delhi",
+            "Bhopal"
+        ],
+        correct: "Parabéns por seres consciente com a química! Agora, tens a permissão de criar um cocktail e escolher quem deve bebê-lo.",
+        incorrect: "Um erro tóxico! Escolhe uma bebida da roda, mistura com qualquer coisa não-alcoólica à vista e bebe."
+    },
+    {
+        numb: 140,
+        question: "Qual se acredita ter sido a principal causa da explosão que destruiu o dirigível 'Hindenburg' em 1937?",
+        answer: "Eletricidade estática",
+        options: [
+            "Um isqueiro",
+            "Falha no equipamento",
+            "Sabotagem",
+            "Eletricidade estática"
+        ],
+        correct: "Faíscas voaram! Escolhe um jogador para passar 1 minuto a acariciar o teu pescoço ou orelha enquanto vocês mantêm contato visual intenso. Caso ninguém queira, distribui 5 goles.",
+        incorrect: "Queimaste tudo… O grupo escolhe uma pessoa e uma perte do corpo. Agora tens que dar um beijo lá. Se recusares, bebes 6 goles."
+    },
+    {
+        numb: 141,
+        question: "O governo espartano incluiu um conselho com uma idade mínima de 60 anos. Qual dos seguintes termos descreve uma sociedade governada pelos idosos?",
+        answer: "Gerontocracia",
+        options: [
+            "Esquirarquia",
+            "Ginarquia",
+            "Gerontocracia",
+            "Meritocracia"
+        ],
+        correct: "Veneras a sabedoria dos anciãos. Distribui 60 segundos de bebida.",
+        incorrect: "Não honraste os velhos. Agora tens que falar como um velho caquético durante 2 rondas. Caso esqueças, bebes 2 goles."
+    },
+    {
+        numb: 142,
+        question: "Sócrates foi julgado, condenado e sentenciado à morte por impiedade e corrupção da juventude de Atenas. Sob que forma de governo foi Sócrates condenado?",
+        answer: "Democracia",
+        options: [
+            "Tirania",
+            "Oligarquia",
+            "Monarquia",
+            "Democracia"
+        ],
+        correct: "Democracia nunca foi tão tentadora! Escolhe alguém e, juntos, recriem o momento do julgamento de Sócrates. A pessoa escolhida deve sentar-se no teu colo e vocês devem trocar um beijo apaixonado. Caso recusem, distribui 6 goles.",
+        incorrect: "Sócrates caiu, e tu também! O grupo escolhe uma pessoa para para te fazer um chupão no pescoço. Se recusares, bebes 5 goles."
+    },
 ];
+/* {
+        numb: 000,
+        question: "Pergunta?",
+        answer: "R Certa",
+        options: [
+            "R",
+            "R",
+            "R",
+            "R"
+        ],
+        correct: "Vantagem",
+        incorrect: "Consequencia"
+    }, */
