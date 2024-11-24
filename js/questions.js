@@ -1988,6 +1988,136 @@ let questions = [
         correct: "Tens a gravidade ao teu favor! Podes puxar qualquer jogador para a casa em que te encontras.",
         incorrect: "Foste atingido por uma maçã… Bebe 3 goles enquanto explicas a teoria da gravidade ao grupo"
     },
+    {
+        numb: 153,
+        question: "Qual é o nome da estrela com o maior raio já registrado na Via Láctea?",
+        answer: "UY Scuti",
+        options: [
+            "UY Scuti",
+            "VY Canis Majoris",
+            "Betelgeuse",
+            "Antares"
+        ],
+        correct: "Vantagem",
+        incorrect: "Consequencia"
+    },
+    {
+        numb: 154,
+        question: "Qual civilização antiga criou o mais antigo sistema de escrita decifrado da história?",
+        answer: "Suméria",
+        options: [
+            "Egípcia",
+            "Suméria",
+            "Cretominoica (Linear B)",
+            "Harappan"
+        ],
+        correct: "Vantagem",
+        incorrect: "Consequencia"
+    },
+    {
+        numb: 155,
+        question: "Qual número é conhecido como a constante de Apéry, relacionada à função zeta de Riemann?",
+        answer: "ζ(3)",
+        options: [
+            "π",
+            "γ (Constante de Euler-Mascheroni)",
+            "ζ(3)",
+            "e"
+        ],
+        correct: "Vantagem",
+        incorrect: "Consequencia"
+    },
+    {
+        numb: 156,
+        question: "Qual compositor clássico escreveu uma peça musical chamada 'A Canção das Estrelas' que só foi descoberta no século XXI?",
+        answer: "Johann Sebastian Bach",
+        options: [
+            "Antonio Vivaldi",
+            "Wolfgang Amadeus Mozart",
+            "Jean-Philippe Rameau",
+            "Johann Sebastian Bach"
+        ],
+        correct: "Vantagem",
+        incorrect: "Consequencia"
+    },
+    {
+        numb: 157,
+        question: "Qual é a ilha habitada mais remota do mundo?",
+        answer: "Tristan da Cunha",
+        options: [
+            "Ilha de Páscoa",
+            "Tristan da Cunha",
+            "Pitcairn",
+            "Svalbard"
+        ],
+        correct: "Vantagem",
+        incorrect: "Consequencia"
+    },
+    {
+        numb: 158,
+        question: "Qual foi o primeiro microprocessador comercial lançado no mercado?",
+        answer: "Intel 4004",
+        options: [
+            "Intel 4004",
+            "Zilog Z80",
+            "Motorola 68000",
+            "IBM PowerPC"
+        ],
+        correct: "Vantagem",
+        incorrect: "Consequencia"
+    },
+    {
+        numb: 159,
+        question: "Qual língua viva tem o maior número de consoantes no mundo?",
+        answer: "Taa (ǃXóõ)",
+        options: [
+            "Taa (ǃXóõ)",
+            "Basco",
+            "Ubykh",
+            "Khoisan"
+        ],
+        correct: "Vantagem",
+        incorrect: "Consequencia"
+    },
+    {
+        numb: 160,
+        question: "Qual é o nome verdadeiro do artista renascentista conhecido como Giorgione?",
+        answer: "Giorgio Barbarelli da Castelfranco",
+        options: [
+            "Giorgio Barbarelli da Castelfranco",
+            "Giovanni Bellini",
+            "Lorenzo Lotto",
+            "Titian Vecelli"
+        ],
+        correct: "Vantagem",
+        incorrect: "Consequencia"
+    },
+    {
+        numb: 161,
+        question: "Qual conceito da física propõe que partículas podem estar em múltiplos estados simultaneamente?",
+        answer: "Superposição quântica",
+        options: [
+            "Superposição quântica",
+            "Emaranhamento quântico",
+            "Dualidade onda-partícula",
+            "Colapso da função de onda"
+        ],
+        correct: "Vantagem",
+        incorrect: "Consequencia"
+    },
+    {
+        numb: 162,
+        question: "Qual é o nome do texto hindu mais antigo, composto por hinos e cânticos?",
+        answer: "Rigveda",
+        options: [
+            "Bhagavad Gita",
+            "Upanishads",
+            "Rigveda",
+            "Mahabharata"
+        ],
+        correct: "Vantagem",
+        incorrect: "Consequencia"
+    }
 ];
 /* {
         numb: 000,
