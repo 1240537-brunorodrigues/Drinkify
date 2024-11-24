@@ -1858,6 +1858,136 @@ let questions = [
         correct: "Democracia nunca foi tão tentadora! Escolhe alguém e, juntos, recriem o momento do julgamento de Sócrates. A pessoa escolhida deve sentar-se no teu colo e vocês devem trocar um beijo apaixonado. Caso recusem, distribui 6 goles.",
         incorrect: "Sócrates caiu, e tu também! O grupo escolhe uma pessoa para para te fazer um chupão no pescoço. Se recusares, bebes 5 goles."
     },
+    {
+        numb: 143,
+        question: "Qual inseto causou um curto-circuito num dos primeiros supercomputadores e inspirou o termo 'bug informático'?",
+        answer: "Traça",
+        options: [
+            "Traça",
+            "Barata",
+            "Mosca",
+            "Formiga"
+        ],
+        correct: "Parabéns, podes ‘desbugar’ um jogador à tua escolha: anula qualquer penalidade que ele esteja a sofrer ou guardar para ti no futuro.",
+        incorrect: "Ficas com um ‘bug’: até ao fim da próxima ronda, só podes falar aos soluços. Caso não o faças, bebes 2 goles."
+    },
+    {
+        numb: 144,
+        question: "Que rei foi casado com Leonor da Aquitânia?",
+        answer: "Henrique II",
+        options: [
+            "Henrique I",
+            "Henrique II",
+            "Ricardo I",
+            "Eduardo I"
+        ],
+        correct: "Escolhe um jogador para se ajoelhar perante ti e oferecer-te um brinde à realeza. Se recusar, bebe 3 goles.",
+        incorrect: "Ficas exilado: recua 5 casas e bebes 2 goles para afogar as mágoas."
+    },
+    {
+        numb: 145,
+        question: "Qual destes presidentes dos Estados Unidos apareceu no programa de televisão 'Laugh-In'?",
+        answer: "Richard Nixon",
+        options: [
+            "Lyndon Johnson",
+            "Richard Nixon",
+            "Jimmy Carter",
+            "Gerald Ford"
+        ],
+        correct: "Vantagem",
+        incorrect: "Consequencia"
+    },
+    {
+        numb: 146,
+        question: "Qual destas não é uma religião monoteísta?",
+        answer: "Hinduísmo",
+        options: [
+            "Judaísmo",
+            "Islão",
+            "Hinduísmo",
+            "Cristianismo"
+        ],
+        correct: "Vantagem",
+        incorrect: "Consequencia"
+    },
+    {
+        numb: 147,
+        question: "Quem foi a primeira mulher indiana a ganhar um Prémio Nobel?",
+        answer: "Madre Teresa",
+        options: [
+            "Indira Gandhi",
+            "Sarojini Naidu",
+            "Madre Teresa",
+            "Amartya Sen"
+        ],
+        correct: "Vantagem",
+        incorrect: "Consequencia"
+    },
+    {
+        numb: 148,
+        question: "Qual é o único país que faz fronteira tanto com o Mar Cáspio como com o Golfo Pérsico?",
+        answer: "Irão",
+        options: [
+            "Cazaquistão",
+            "Iraque",
+            "Turquemenistão",
+            "Irão"
+        ],
+        correct: "Podes atravessar o mapa: avança 10 casas e distribui 3 goles.",
+        incorrect: "Ficas perdido no deserto: recua 5 casas e bebe 2 goles."
+    },
+    {
+        numb: 149,
+        question: "Que unidade científica tem o nome de um nobre italiano?",
+        answer: "Volt",
+        options: [
+            "Pascal",
+            "Volt",
+            "Ohm",
+            "Hertz"
+        ],
+        correct: "Estás cheio de energia! Avança 3 casas e faz o grupo beber 1 gole para recarregar.",
+        incorrect: "Estás sem energia… Finge que és um robô com bateria fraca por 1 ronda. Se alguém rir, bebes 2 goles."
+    },
+    {
+        numb: 150,
+        question: "Quem desenvolveu a primeira vacina bem-sucedida contra a poliomielite nos anos 1950?",
+        answer: "Jonas Salk",
+        options: [
+            "Albert Sabin",
+            "Niels Bohr",
+            "Louis Pasteur",
+            "Jonas Salk"
+        ],
+        correct: "Vacina-te contra penalidades: na próxima rodada, nada pode ser aplicado a ti.",
+        incorrect: "Estás contaminado(a)! Escolhe um jogador para ‘infectar’: ambos bebem 3 goles e torna-se teu buddy."
+    },
+    {
+        numb: 151,
+        question: "Qual destas não é uma das corridas do Triplo Coroado americano de corridas de cavalos?",
+        answer: "Arlington Million",
+        options: [
+            "Kentucky Derby",
+            "Belmont Stakes",
+            "Arlington Million",
+            "Preakness Stakes"
+        ],
+        correct: "Ganha a corrida! Escolhe alguém para fazer um ‘cavalo’ e carrega-te por 1 volta.",
+        incorrect: "Ficas para trás na corrida: recua 5 casas e imita o trote de um cavalo enquanto bebes 2 goles."
+    },
+    {
+        numb: 152,
+        question: "Qual destes homens não tem um elemento químico com o seu nome?",
+        answer: "Isaac Newton",
+        options: [
+            "Albert Einstein",
+            "Enrico Fermi",
+            "Isaac Newton",
+            "Niels Bohr"
+        ],
+        correct: "Tens a gravidade ao teu favor! Podes puxar qualquer jogador para a casa em que te encontras.",
+        incorrect: "Foste atingido por uma maçã… Bebe 3 goles enquanto explicas a teoria da gravidade ao grupo"
+    },
 ];
 /* {
         numb: 000,
