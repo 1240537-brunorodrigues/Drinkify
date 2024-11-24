@@ -2117,6 +2117,266 @@ let questions = [
         ],
         correct: "Vantagem",
         incorrect: "Consequencia"
+    },
+    {
+        numb: 163,
+        question: "Qual foi o primeiro animal a ser clonado com sucesso a partir de uma célula adulta?",
+        answer: "Ovelha",
+        options: [
+            "Ovelha",
+            "Rato",
+            "Cavalo",
+            "Cão"
+        ],
+        correct: "Vantagem",
+        incorrect: "Consequencia"
+    },
+    {
+        numb: 164,
+        question: "Qual país possui a maior quantidade de lagos naturais no mundo?",
+        answer: "Canadá",
+        options: [
+            "Canadá",
+            "Rússia",
+            "Finlândia",
+            "Brasil"
+        ],
+        correct: "Vantagem",
+        incorrect: "Consequencia"
+    },
+    {
+        numb: 165,
+        question: "Qual é a única peça de Shakespeare que se passa em Viena?",
+        answer: "Medida por Medida",
+        options: [
+            "Otelo",
+            "Medida por Medida",
+            "Hamlet",
+            "A Tempestade"
+        ],
+        correct: "Vantagem",
+        incorrect: "Consequencia"
+    },
+    {
+        numb: 166,
+        question: "Qual foi o primeiro satélite artificial a orbitar a Terra?",
+        answer: "Sputnik 1",
+        options: [
+            "Sputnik 1",
+            "Explorer 1",
+            "Luna 1",
+            "Vostok 1"
+        ],
+        correct: "Vantagem",
+        incorrect: "Consequencia"
+    },
+    {
+        numb: 167,
+        question: "Qual cientista foi responsável por propor a teoria das placas tectônicas?",
+        answer: "Alfred Wegener",
+        options: [
+            "Alfred Wegener",
+            "Charles Darwin",
+            "Isaac Newton",
+            "Galileu Galilei"
+        ],
+        correct: "Vantagem",
+        incorrect: "Consequencia"
+    },
+    {
+        numb: 168,
+        question: "Qual é a menor espécie de pássaro conhecida no mundo?",
+        answer: "Beija-flor-abelha",
+        options: [
+            "Beija-flor-abelha",
+            "Beija-flor-de-cauda-longínqua",
+            "Pardal-mosca",
+            "Martim-pescador-anão"
+        ],
+        correct: "Vantagem",
+        incorrect: "Consequencia"
+    },
+    {
+        numb: 169,
+        question: "Qual é o idioma oficial do Butão?",
+        answer: "Dzongkha",
+        options: [
+            "Dzongkha",
+            "Tibetano",
+            "Hindi",
+            "Nepalês"
+        ],
+        correct: "Vantagem",
+        incorrect: "Consequencia"
+    },
+    {
+        numb: 170,
+        question: "Qual explorador europeu foi o primeiro a alcançar o Cabo da Boa Esperança?",
+        answer: "Bartolomeu Dias",
+        options: [
+            "Bartolomeu Dias",
+            "Vasco da Gama",
+            "Ferdinando de Magalhães",
+            "Cristóvão Colombo"
+        ],
+        correct: "Vantagem",
+        incorrect: "Consequencia"
+    },
+    {
+        numb: 171,
+        question: "Qual é o nome do mineral mais duro encontrado na natureza?",
+        answer: "Diamante",
+        options: [
+            "Diamante",
+            "Coríndon",
+            "Topázio",
+            "Quartzo"
+        ],
+        correct: "Vantagem",
+        incorrect: "Consequencia"
+    },
+    {
+        numb: 172,
+        question: "Qual foi o primeiro livro impresso por Johannes Gutenberg?",
+        answer: "A Bíblia",
+        options: [
+            "A Bíblia",
+            "A Ilíada",
+            "Os Lusíadas",
+            "O Livro de Horas"
+        ],
+        correct: "Vantagem",
+        incorrect: "Consequencia"
+    },
+    {
+        numb: 173,
+        question: "Qual é o único local na Terra onde dois oceanos e dois continentes se encontram?",
+        answer: "Ponto Quádruplo do Estreito de Bering",
+        options: [
+            "Ponto Quádruplo do Estreito de Bering",
+            "Fronteira entre África e Ásia",
+            "Polo Sul",
+            "Estreito de Magalhães"
+        ],
+        correct: "Vantagem",
+        incorrect: "Consequencia"
+    },
+    {
+        numb: 174,
+        question: "Qual número primo é o maior conhecido atualmente (em 2024) como parte da sequência de Mersenne?",
+        answer: "2^82.589.933 - 1",
+        options: [
+            "2^82.589.933 - 1",
+            "2^74.207.281 - 1",
+            "2^77.232.917 - 1",
+            "2^81.239.501 - 1"
+        ],
+        correct: "Vantagem",
+        incorrect: "Consequencia"
+    },
+    {
+        numb: 175,
+        question: "Qual foi o nome do fóssil mais antigo de Homo sapiens já encontrado?",
+        answer: "Jebel Irhoud 1",
+        options: [
+            "Jebel Irhoud 1",
+            "Lucy",
+            "Taung Child",
+            "Floresiensis 1"
+        ],
+        correct: "Vantagem",
+        incorrect: "Consequencia"
+    },
+    {
+        numb: 176,
+        question: "Qual partícula subatômica foi hipotetizada em 1930 e só confirmada em 1956?",
+        answer: "Neutrino",
+        options: [
+            "Neutrino",
+            "Bóson de Higgs",
+            "Méson",
+            "Tau"
+        ],
+        correct: "Vantagem",
+        incorrect: "Consequencia"
+    },
+    {
+        numb: 177,
+        question: "Qual é a espécie de planta mais antiga a ainda produzir descendentes diretos no planeta?",
+        answer: "Welwitschia mirabilis",
+        options: [
+            "Welwitschia mirabilis",
+            "Sequoia sempervirens",
+            "Ginkgo biloba",
+            "Araucária"
+        ],
+        correct: "Vantagem",
+        incorrect: "Consequencia"
+    },
+    {
+        numb: 178,
+        question: "Qual é o único planeta do Sistema Solar cuja órbita é quase perpendicular ao seu eixo de rotação?",
+        answer: "Urano",
+        options: [
+            "Urano",
+            "Netuno",
+            "Vênus",
+            "Saturno"
+        ],
+        correct: "Vantagem",
+        incorrect: "Consequencia"
+    },
+    {
+        numb: 179,
+        question: "Qual é o texto religioso mais longo do mundo, com mais de 100.000 versos?",
+        answer: "Mahabharata",
+        options: [
+            "Mahabharata",
+            "Bíblia",
+            "Alcorão",
+            "Tripitaka"
+        ],
+        correct: "Vantagem",
+        incorrect: "Consequencia"
+    },
+    {
+        numb: 180,
+        question: "Qual metal líquido foi usado na construção do espelho do telescópio Large Zenith?",
+        answer: "Mercúrio",
+        options: [
+            "Mercúrio",
+            "Gálio",
+            "Sódio",
+            "Potássio"
+        ],
+        correct: "Vantagem",
+        incorrect: "Consequencia"
+    },
+    {
+        numb: 181,
+        question: "Qual é o único idioma artificial reconhecido como língua oficial em um país?",
+        answer: "Esperanto",
+        options: [
+            "Esperanto",
+            "Interlíngua",
+            "Klingon",
+            "Toki Pona"
+        ],
+        correct: "Vantagem",
+        incorrect: "Consequencia"
+    },
+    {
+        numb: 182,
+        question: "Qual filósofo grego escreveu a única obra completa conhecida sobre astronomia da antiguidade?",
+        answer: "Cláudio Ptolomeu",
+        options: [
+            "Cláudio Ptolomeu",
+            "Aristarco de Samos",
+            "Hiparco de Niceia",
+            "Anaximandro"
+        ],
+        correct: "Vantagem",
+        incorrect: "Consequencia"
     }
 ];
 /* {
