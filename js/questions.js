@@ -1894,8 +1894,8 @@ let questions = [
             "Jimmy Carter",
             "Gerald Ford"
         ],
-        correct: "Vantagem",
-        incorrect: "Consequencia"
+        correct: "Agora és um presidente carismático! Escolhe alguém para te cumprimentar formalmente e beber 3 goles enquanto o faz.",
+        incorrect: "Ficaste nervoso no programa! Durante a próxima rodada, só podes falar usando slogans políticos improvisados."
     },
     {
         numb: 146,
@@ -1907,8 +1907,8 @@ let questions = [
             "Hinduísmo",
             "Cristianismo"
         ],
-        correct: "Vantagem",
-        incorrect: "Consequencia"
+        correct: "Descobriste o politeísmo! Podes escolher dois jogadores para beber 1 gole cada.",
+        incorrect: "Confundiste as divindades! Durante a próxima rodada, tens de criar nomes engraçados para todos os jogadores e usá-los ao se dirigir a eles, ou beber 1 gole por cada erro."
     },
     {
         numb: 147,
@@ -1920,8 +1920,8 @@ let questions = [
             "Madre Teresa",
             "Amartya Sen"
         ],
-        correct: "Vantagem",
-        incorrect: "Consequencia"
+        correct: "Ganhaste o prêmio da bondade! Escolhe um jogador para distribuir 3 goles.",
+        incorrect: "Erraste o altruísmo! Durante a próxima rodada, tens de servir as bebidas para todos os outros jogadores, enquanto bebes 2 goles."
     },
     {
         numb: 148,
@@ -1998,8 +1998,8 @@ let questions = [
             "Betelgeuse",
             "Antares"
         ],
-        correct: "Vantagem",
-        incorrect: "Consequencia"
+        correct: "Agora és uma estrela! Brilhas tanto que escolhes um jogador para usar óculos escuros até o fim do jogo.",
+        incorrect: "Ficas tão envergonhado por errar que tens de andar a jogar com uma folha de papel presa no rosto como se fosse uma máscara."
     },
     {
         numb: 154,
@@ -2011,8 +2011,8 @@ let questions = [
             "Cretominoica (Linear B)",
             "Harappan"
         ],
-        correct: "Vantagem",
-        incorrect: "Consequencia"
+        correct: "Grande em história! Por falar nisso, escolhe duas pessoas para contarem a história mais embaraçosa que tenham.",
+        incorrect: "Perdeste na história! Todos os jogadores devem escrever os seus nomes com uma caneta nos teus braços."
     },
     {
         numb: 155,
@@ -2024,8 +2024,8 @@ let questions = [
             "ζ(3)",
             "e"
         ],
-        correct: "Vantagem",
-        incorrect: "Consequencia"
+        correct: "És um génio da matemática! Distribui 5 goles a qualquer jogador.",
+        incorrect: "Erro grave! Tens de contar até 20 apenas em números primos enquanto bebes goles a cada erro."
     },
     {
         numb: 156,
@@ -2037,8 +2037,8 @@ let questions = [
             "Jean-Philippe Rameau",
             "Johann Sebastian Bach"
         ],
-        correct: "Vantagem",
-        incorrect: "Consequencia"
+        correct: "Agora és maestro! Escolhe alguém para cantar qualquer música enquanto tu ‘diriges’ com gestos dramáticos.",
+        incorrect: "Erraste a melodia! Faz um rap improvisado sobre estrelas."
     },
     {
         numb: 157,
@@ -2050,8 +2050,8 @@ let questions = [
             "Pitcairn",
             "Svalbard"
         ],
-        correct: "Vantagem",
-        incorrect: "Consequencia"
+        correct: "Explorador nato! Escolhe alguém para te levar nos ombros ou costas duas voltas ao redor do grupo.",
+        incorrect: "Perdido no meio do oceano! Bebe 5 goles e joga a próxima rodada sentado no chão."
     },
     {
         numb: 158,
@@ -2063,8 +2063,8 @@ let questions = [
             "Motorola 68000",
             "IBM PowerPC"
         ],
-        correct: "Vantagem",
-        incorrect: "Consequencia"
+        correct: "És tão avançado que ganhas o poder de ‘desligar’ um jogador por uma rodada (ele não pode falar nem agir).",
+        incorrect: "Que bug! Ficas a fazer sons robóticos durante duas rondas."
     },
     {
         numb: 159,
@@ -2076,8 +2076,8 @@ let questions = [
             "Ubykh",
             "Khoisan"
         ],
-        correct: "Vantagem",
-        incorrect: "Consequencia"
+        correct: "És um mestre da comunicação! Escolhe 2 jogadores para se comunicarem com o grupo por gemidos durante 1 ronda.",
+        incorrect: "Ficas sem palavras! Agora só podes comunicar por gemidos até à próxima rodada."
     },
     {
         numb: 160,
@@ -2089,8 +2089,8 @@ let questions = [
             "Lorenzo Lotto",
             "Titian Vecelli"
         ],
-        correct: "Vantagem",
-        incorrect: "Consequencia"
+        correct: "És uma verdadeira obra de arte! As pessoas que beijares hoje devem ‘assinar’ a tua pele com uma caneta. Assina agora quem já beijou hoje.",
+        incorrect: "Agora és a tela! Deita-te enquanto o grupo decide como posar-te de forma ‘artística’ e faz um desenho na tua pele."
     },
     {
         numb: 161,
@@ -2102,8 +2102,8 @@ let questions = [
             "Dualidade onda-partícula",
             "Colapso da função de onda"
         ],
-        correct: "Vantagem",
-        incorrect: "Consequencia"
+        correct: "Agora és omnipresente! Joga mais duas vezes.",
+        incorrect: "Tuas partículas colapsaram! Ficas parado como estátua até à tua próxima vez."
     },
     {
         numb: 162,
@@ -2115,8 +2115,8 @@ let questions = [
             "Rigveda",
             "Mahabharata"
         ],
-        correct: "Vantagem",
-        incorrect: "Consequencia"
+        correct: "Recebeste iluminação! Todos os jogadores fazem-te uma reverência. Faz um boomerang e posta na história.",
+        incorrect: "Perdeste a bênção! Fica a fazer cânticos (Ommm…) até tua próxima rodada."
     },
     {
         numb: 163,
@@ -2128,8 +2128,8 @@ let questions = [
             "Cavalo",
             "Cão"
         ],
-        correct: "Vantagem",
-        incorrect: "Consequencia"
+        correct: "Agora tens um clone! Escolhe um jogador para agir exatamente como tu por uma rodada e se tornar teu buddy.",
+        incorrect: "Tornaste-te uma ovelha sexy! Caminha pela sala enquanto fazes sons de ‘bééé’, abanando os quadris como num desfile."
     },
     {
         numb: 164,
@@ -2141,8 +2141,8 @@ let questions = [
             "Finlândia",
             "Brasil"
         ],
-        correct: "Vantagem",
-        incorrect: "Consequencia"
+        correct: "És cheio de recursos! Enche a tua bebida.",
+        incorrect: "Foste parar a um lago! Mergulha a mão na tua bebida e bebe dela."
     },
     {
         numb: 165,
@@ -2154,8 +2154,8 @@ let questions = [
             "Hamlet",
             "A Tempestade"
         ],
-        correct: "Vantagem",
-        incorrect: "Consequencia"
+        correct: "És um protagonista sedutor! Escolhe alguém para recriar contigo um beijo teatral dramático.",
+        incorrect: "Péssima atuação! Tens de ajoelhar-te e recitar uma declaração romântica exagerada para alguém à escolha do grupo."
     },
     {
         numb: 166,
@@ -2167,8 +2167,8 @@ let questions = [
             "Luna 1",
             "Vostok 1"
         ],
-        correct: "Vantagem",
-        incorrect: "Consequencia"
+        correct: "Agora tens o poder do espaço! Escolhe um jogador para ‘orbitar’ ao redor de ti por uma rodada.",
+        incorrect: "Ficas em órbita! Anda em círculos ao redor da mesa até tua próxima rodada."
     },
     {
         numb: 167,
@@ -2180,8 +2180,8 @@ let questions = [
             "Isaac Newton",
             "Galileu Galilei"
         ],
-        correct: "Vantagem",
-        incorrect: "Consequencia"
+        correct: "Moveste montanhas! Avança 3 casas.",
+        incorrect: "Causaste um terremoto! Ficas no chão numa posição toda fodida por uma rodada."
     },
     {
         numb: 168,
@@ -2193,8 +2193,8 @@ let questions = [
             "Pardal-mosca",
             "Martim-pescador-anão"
         ],
-        correct: "Vantagem",
-        incorrect: "Consequencia"
+        correct: "Agora és um beija-flor! As pessoas à tua esquerda e direita devem beijar o teu pescoço enquanto distribuis 5 goles.",
+        incorrect: "Não foste rápido como o pássaro correto! Dá um beijo a cada jogador do grupo antes de beber 3 goles."
     },
     {
         numb: 169,
@@ -2206,8 +2206,8 @@ let questions = [
             "Hindi",
             "Nepalês"
         ],
-        correct: "Vantagem",
-        incorrect: "Consequencia"
+        correct: "Agora és o rei do Butão! Podes mandar um jogador à tua escolha ajoelhar-se e beijar tua mão (ou outra coisa, se permitires).",
+        incorrect: "Erraste! O grupo escolhe alguém para te dar uma palmada no rabo."
     },
     {
         numb: 170,
@@ -2219,8 +2219,8 @@ let questions = [
             "Ferdinando de Magalhães",
             "Cristóvão Colombo"
         ],
-        correct: "Vantagem",
-        incorrect: "Consequencia"
+        correct: "Navegaste até o prazer! Escolhe um jogador para te fazer uma massagem nas costas por 1 minuto.",
+        incorrect: "O teu navio afundou! Tens de te ‘afundar’ no colo de alguém e ficar lá até tua próxima rodada."
     },
     {
         numb: 171,
@@ -2232,8 +2232,8 @@ let questions = [
             "Topázio",
             "Quartzo"
         ],
-        correct: "Vantagem",
-        incorrect: "Consequencia"
+        correct: "És inquebrável como um diamante! Podes cancelar uma consequência aplicada a ti durante o jogo.",
+        incorrect: "Ficaste sob pressão! Tens de carregar outro jogador às costas enquanto bebes 2 goles."
     },
     {
         numb: 172,
@@ -2245,8 +2245,8 @@ let questions = [
             "Os Lusíadas",
             "O Livro de Horas"
         ],
-        correct: "Vantagem",
-        incorrect: "Consequencia"
+        correct: "Revolucionaste a imprensa! Escolhe um jogador para escrever uma mensagem criativa em qualquer parte do teu corpo com uma caneta.",
+        incorrect: "Erraste a impressão! Escreve a palavra ‘FAIL’ na tua testa e mantém até o final do jogo."
     },
     {
         numb: 173,
@@ -2258,8 +2258,8 @@ let questions = [
             "Polo Sul",
             "Estreito de Magalhães"
         ],
-        correct: "Vantagem",
-        incorrect: "Consequencia"
+        correct: "Chegaste ao ponto de encontro! Escolhe dois jogadores para darem um beijo triplo contigo no meio.",
+        incorrect: "Ficaste perdido! Faz um twerk no meio do grupo enquanto bebes 3 goles."
     },
     {
         numb: 174,
@@ -2271,8 +2271,8 @@ let questions = [
             "2^77.232.917 - 1",
             "2^81.239.501 - 1"
         ],
-        correct: "Vantagem",
-        incorrect: "Consequencia"
+        correct: "És o maior! Escolhe alguém para te elogiar de forma exagerada por 30 segundos.",
+        incorrect: "Erraste o cálculo! Agora és pequeno… Deita-te no chão e finge ser uma minhoca enquanto bebes."
     },
     {
         numb: 175,
@@ -2284,8 +2284,8 @@ let questions = [
             "Taung Child",
             "Floresiensis 1"
         ],
-        correct: "Vantagem",
-        incorrect: "Consequencia"
+        correct: "Estás cheio de história! Escolhe alguém para te cheirar o pescoço e dizer o que achou.",
+        incorrect: "Ficaste preso no passado! Tens de morder a orelha de um jogador escolhido pelo grupo."
     },
     {
         numb: 176,
@@ -2297,8 +2297,8 @@ let questions = [
             "Méson",
             "Tau"
         ],
-        correct: "Vantagem",
-        incorrect: "Consequencia"
+        correct: "És invisível como um neutrino! Escolhe um jogador. Todos sem ser esse tapam os olhos, incluindo tu. Esse jogador pode beijar-te onde quiser.",
+        incorrect: "Tornaste-te instável! O grupo escolhe alguém para te dar uma palmada no rabo ou um estalo na cara seguido de um beijo e um olhar intenso (e tu agradeces depois)."
     },
     {
         numb: 177,
@@ -2310,8 +2310,8 @@ let questions = [
             "Ginkgo biloba",
             "Araucária"
         ],
-        correct: "Vantagem",
-        incorrect: "Consequencia"
+        correct: "Tens raízes fortes! Escolhe um jogador para ficar imóvel no mesmo lugar por 2 rodadas.",
+        incorrect: "Ficaste seco! Durante a próxima rodada, não podes beber nada, mesmo que seja tua vez."
     },
     {
         numb: 178,
@@ -2323,8 +2323,8 @@ let questions = [
             "Vênus",
             "Saturno"
         ],
-        correct: "Vantagem",
-        incorrect: "Consequencia"
+        correct: "És tão peculiar quanto Urano! Avança 4 casas e distribui 3 goles entre os jogadores.",
+        incorrect: "Ficaste desequilibrado! Anda de costas ao redor da mesa até à tua próxima vez."
     },
     {
         numb: 179,
@@ -2336,8 +2336,8 @@ let questions = [
             "Alcorão",
             "Tripitaka"
         ],
-        correct: "Vantagem",
-        incorrect: "Consequencia"
+        correct: "Sabedoria infinita! Durante a próxima rodada, podes trocar uma vez de lugar no tabuleiro com qualquer jogador",
+        incorrect: "O peso das palavras caiu sobre ti! O grupo escolhe uma pessoa. Lê as últimas mensagens com essa pessoa em voz alta enquanto bebes 3 goles."
     },
     {
         numb: 180,
@@ -2349,8 +2349,8 @@ let questions = [
             "Sódio",
             "Potássio"
         ],
-        correct: "Vantagem",
-        incorrect: "Consequencia"
+        correct: "És brilhante como o mercúrio! Distribui 4 goles para qualquer jogador e avança 2 casas.",
+        incorrect: "O mercúrio escapou! Ficas em posição de ‘líquido’ (deitado no chão) até à tua próxima jogada."
     },
     {
         numb: 181,
@@ -2362,8 +2362,8 @@ let questions = [
             "Klingon",
             "Toki Pona"
         ],
-        correct: "Vantagem",
-        incorrect: "Consequencia"
+        correct: "O teu apelido torna-se poliglota! Escolhe alguém para só poder falar em palavras inventadas ou Simlish durante 1 ronda.",
+        incorrect: "Erro linguístico! Durante a próxima rodada, só podes falar em palavras inventadas ou Simlish."
     },
     {
         numb: 182,
@@ -2375,8 +2375,8 @@ let questions = [
             "Hiparco de Niceia",
             "Anaximandro"
         ],
-        correct: "Vantagem",
-        incorrect: "Consequencia"
+        correct: "És um astrónomo brilhante! Escolhe um jogador. Esse jogador sempre que falar só pode responder com factos sobre estrelas (verdadeiros ou não).",
+        incorrect: "Erraste! Tens de andar de quatro ao redor do grupo e pedir desculpas a todos."
     }
 ];
 /* {
