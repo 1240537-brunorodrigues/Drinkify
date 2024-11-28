@@ -2377,6 +2377,240 @@ let questions = [
         ],
         correct: "És um astrónomo brilhante! Escolhe um jogador. Esse jogador sempre que falar só pode responder com factos sobre estrelas (verdadeiros ou não).",
         incorrect: "Erraste! Tens de andar de quatro ao redor do grupo e pedir desculpas a todos."
+    },
+    {
+        numb: 183,
+        question: "Qual teoria na física propõe que todas as partículas fundamentais são vibrações minúsculas?",
+        answer: "Teoria das Cordas",
+        options: [
+            "Teoria da Relatividade",
+            "Teoria Quântica",
+            "Teoria das Cordas",
+            "Teoria do Big Bang"
+        ],
+        correct: "Alcançaste uma nova dimensão! Escolhe um jogador para trocar de lugar contigo no tabuleiro.",
+        incorrect: "Nope! Bebe 2 goles e recua 3 casas enquanto imitas uma vibração."
+    },
+    {
+        numb: 184,
+        question: "Quem desenvolveu o conceito de 'Monadologia' na filosofia?",
+        answer: "Gottfried Wilhelm Leibniz",
+        options: [
+            "Immanuel Kant",
+            "Gottfried Wilhelm Leibniz",
+            "René Descartes",
+            "Baruch Spinoza"
+        ],
+        correct: "Mestre das mónadas! Escolhe dois jogadores para formar um 'grupo filosófico' que partilha ações durante 2 rodadas.",
+        incorrect: "A tua mónada perdeu-se! Bebe 3 goles e explica brevemente o que é 'Monadologia' para o grupo."
+    },
+    {
+        numb: 185,
+        question: "Qual é a equação fundamental que descreve a interação gravitacional no campo da relatividade geral?",
+        answer: "Equação de Einstein",
+        options: [
+            "E = mc²",
+            "Equação de Schrödinger",
+            "Equação de Einstein",
+            "Equação de Maxwell"
+        ],
+        correct: "Gravitacionalmente correto! Avança 5 casas e distribui 2 goles para qualquer jogador.",
+        incorrect: "Erro na gravidade! Recua 4 casas e bebe 2 goles enquanto imitas a curvatura do espaço-tempo."
+    },
+    {
+        numb: 186,
+        question: "Qual é o nome do processo pelo qual uma estrela massiva explode no final da sua vida?",
+        answer: "Supernova",
+        options: [
+            "Nebulosa",
+            "Supernova",
+            "Anã Branca",
+            "Buraco Negro"
+        ],
+        correct: "Explosão estelar! Escolhe dois jogadores para realizarem uma 'explosão de alegria' e beberem juntos. Tornam-se buddies.",
+        incorrect: "Apagaram a tua luz! Bebe 3 goles vendado e só tiras a venda quando 2 pessoas te acolherem como buddy."
+    },
+    {
+        numb: 187,
+        question: "Qual é o número quântico que descreve o momento angular total de um eletrão?",
+        answer: "Número quântico magnético (mₗ)",
+        options: [
+            "Número quântico principal (n)",
+            "Número quântico azimutal (l)",
+            "Número quântico magnético (mₗ)",
+            "Número quântico de spin (mₛ)"
+        ],
+        correct: "Spin up! Escolhe alguém para realizar um movimento de rotação enquanto distribui 2 goles.",
+        incorrect: "Spin down! Bebe 2 goles e recua 2 casas enquanto imitas a rotação de um eletrão."
+    },
+    {
+        numb: 188,
+        question: "Qual é a capital da Mongólia?",
+        answer: "Ulaanbaatar",
+        options: [
+            "Astana",
+            "Tashkent",
+            "Ulaanbaatar",
+            "Bishkek"
+        ],
+        correct: "Conquistaste a estepe! Avança 3 casas e escolhe um jogador para te contar uma curiosidade sobre a Mongólia.",
+        incorrect: "Errado! Bebe 2 goles e sempre que moveres o peão, finges ser um cavalo mongol a trotear pelo tabuleiro."
+    },
+    {
+        numb: 189,
+        question: "Na mecânica quântica, qual princípio afirma que é impossível conhecer simultaneamente a posição e o momento de uma partícula com precisão arbitrária?",
+        answer: "Princípio da Incerteza de Heisenberg",
+        options: [
+            "Princípio da Exclusão de Pauli",
+            "Princípio da Incerteza de Heisenberg",
+            "Princípio da Relatividade",
+            "Princípio de Correspondência"
+        ],
+        correct: "Incerteza quântica! Escolhe um jogador para tentar adivinhar a quanto vai tirar no dado, se acertar avança o dobro.",
+        incorrect: "Incerteza sobre a resposta! Bebe 3 goles e descreve uma incerteza na tua vida."
+    },
+    {
+        numb: 190,
+        question: "Qual é a maior partícula subatómica conhecida no Modelo Padrão da física de partículas?",
+        answer: "Bosão de Higgs",
+        options: [
+            "Quark top",
+            "Bosão W",
+            "Bosão de Higgs",
+            "Gluão"
+        ],
+        correct: "Higgs identificado! Avança 4 casas e distribui 1 gole para cada jogador.",
+        incorrect: "Falha no Modelo Padrão! Bebe 2 goles e explica brevemente o papel do Bosão de Higgs."
+    },
+    {
+        numb: 191,
+        question: "Quem foi o matemático e físico que desenvolveu a mecânica quântica moderna e recebeu o Prêmio Nobel de Física em 1928?",
+        answer: "Paul Dirac",
+        options: [
+            "Erwin Schrödinger",
+            "Werner Heisenberg",
+            "Paul Dirac",
+            "Max Born"
+        ],
+        correct: "Teoria quântica correta! Escolhe dois jogadores para discutirem brevemente sobre o Dirac enquanto bebem juntos.",
+        incorrect: "Erro quântico! Bebe 3 goles e tenta explicar o que é antimáteria."
+    },
+    {
+        numb: 192,
+        question: "Qual é a estrutura cristalina mais densa conhecida para um metal?",
+        answer: "Cúbica de Corpo Centrado (CCC)",
+        options: [
+            "Cúbica de Face Centrada (CFC)",
+            "Cúbica de Corpo Centrado (CCC)",
+            "Hexagonal Compacta (HC)",
+            "Tetragonal Simples"
+        ],
+        correct: "Estrutura densa! Avança 2 casas e distribui 2 goles.",
+        incorrect: "Estrutura fracassada! Bebe 2 goles e recua 3 casas enquanto descreves uma estrutura cristalina."
+    },
+    {
+        numb: 193,
+        question: "Qual é a equação que relaciona a energia, a massa e a velocidade da luz?",
+        answer: "E = mc²",
+        options: [
+            "F = ma",
+            "E = mc²",
+            "V = IR",
+            "a² + b² = c²"
+        ],
+        correct: "Avança 1 casa.",
+        incorrect: "Recua 6 casas."
+    },
+    {
+        numb: 194,
+        question: "Qual filósofo é conhecido pela alegoria da caverna?",
+        answer: "Platão",
+        options: [
+            "Aristóteles",
+            "Platão",
+            "Sócrates",
+            "Descartes"
+        ],
+        correct: "Fuga da caverna! Avança 3 casas e escolhe um jogador para explicar o significado de 'utopia'.",
+        incorrect: "Ainda na caverna! Bebe 2 goles e finge estar preso nas sombras."
+    },
+    {
+        numb: 195,
+        question: "Qual é a partícula elementar responsável pela força eletromagnética?",
+        answer: "Bosão foton",
+        options: [
+            "Gluão",
+            "Bosão W",
+            "Bosão fotão",
+            "Gravitão"
+        ],
+        correct: "Força da luz! Escolhe um jogador para fazer um flash de luz (usar a lanterna do telemóvel) enquanto ambos bebem 4 goles.",
+        incorrect: "Falha na força! Bebe 2 goles e explica brevemente interação eletromagnética."
+    },
+    {
+        numb: 196,
+        question: "Qual é a constante de Planck (h) aproximadamente em joule-segundos?",
+        answer: "6.626 × 10⁻³⁴ J·s",
+        options: [
+            "3.14 × 10⁻³⁴ J·s",
+            "6.626 × 10⁻³⁴ J·s",
+            "9.81 × 10⁻³⁴ J·s",
+            "1.602 × 10⁻³⁴ J·s"
+        ],
+        correct: "Constante de Planck correta! Avança 5 casas e distribui 4 goles.",
+        incorrect: "Constante errada! Bebe 3 goles e estuda antes de jogares."
+    },
+    {
+        numb: 197,
+        question: "Qual é a teoria que unifica a mecânica quântica e a relatividade geral?",
+        answer: "Teoria Quântica da Gravitação",
+        options: [
+            "Teoria das Cordas",
+            "Teoria Quântica da Gravitação",
+            "Teoria M",
+            "Teoria do Campo Unificado"
+        ],
+        correct: "Unificação bem-sucedida! Escolhe dois jogadores para se unificarem (comem-se).",
+        incorrect: "Unificação falhou! Bebe 4 goles e explica o motivo de estares solteiro, se não estiveres diz porque gostarias de estar."
+    },
+    {
+        numb: 198,
+        question: "Qual é o nome do fenómeno pelo qual partículas são instantaneamente afetadas por outras partículas a grandes distâncias?",
+        answer: "Emaranhamento Quântico",
+        options: [
+            "Superposição",
+            "Decaimento Radioativo",
+            "Emaranhamento Quântico",
+            "Túnel Quântico"
+        ],
+        correct: "Emaranhamento perfeito! Escolhe um jogador para se conectar contigo durante a próxima rodada, sentando-se no teu colo.",
+        incorrect: "Emaranhamento falhou! Bebe 2 goles e fica de mão dada com outro jogador à escolha do grupo."
+    },
+    {
+        numb: 199,
+        question: "Qual é a função de onda da partícula que representa o seu estado quântico?",
+        answer: "Função de onda ψ (psi)",
+        options: [
+            "Função de onda φ (phi)",
+            "Função de onda ψ (psi)",
+            "Função de onda χ (chi)",
+            "Função de onda δ (delta)"
+        ],
+        correct: "Função de onda correta! Todos os jogadores dão as mãos e fazem ondas enquanto bebem 2 goles. Avança 3 casas.",
+        incorrect: "Função de onda errada! Bebe 3 goles enquanto finges estar em gravidade zero."
+    },
+    {
+        numb: 200,
+        question: "Qual é o nome da força que mantém os protões unidos no núcleo atómico?",
+        answer: "Força Nuclear Forte",
+        options: [
+            "Força Eletromagnética",
+            "Força Gravitacional",
+            "Força Nuclear Fraca",
+            "Força Nuclear Forte"
+        ],
+        correct: "Força nuclear forte ativada! Escolhe um jogador para fazer uma história onde questiona os seguidores se já pensaram em/que... (algo ridículo).",
+        incorrect: "Força nuclear fraca! Bebe 2 goles e faz uma história onde questionas os teus seguidores se já pensaram em/que... (algo ridículo)."
     }
 ];
 /* {
