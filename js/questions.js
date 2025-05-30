@@ -2611,8 +2611,295 @@ let questions = [
         ],
         correct: "Força nuclear forte ativada! Escolhe um jogador para fazer uma história onde questiona os seguidores se já pensaram em/que... (algo ridículo).",
         incorrect: "Força nuclear fraca! Bebe 2 goles e faz uma história onde questionas os teus seguidores se já pensaram em/que... (algo ridículo)."
+    },
+    {
+        numb: 201,
+        question: "Qual destes não faz parte dos Quatro Cavaleiros do Apocalipse?",
+        answer: "Sodomia",
+        options: [
+            "Guerra",
+            "Fome",
+            "Peste",
+            "Sodomia"
+        ],
+        correct: "Acalmas o apocalipse: escolhe 2 jogadores para fazerem uma trégua — ficam sem penalidades esta ronda.",
+        incorrect: "A paz foi quebrada: bebes 4 goles e fazes um discurso dramático de fim do mundo."
+    },
+    {
+        numb: 202,
+        question: "Em média, quantos passos uma pessoa dá por dia?",
+        answer: "8000",
+        options: [
+            "2000",
+            "5000",
+            "8000",
+            "12000"
+        ],
+        correct: "Passos certos! Toda a gente dá 5 passinhos à frente (andam pelo tabuleiro), bebendo 1 gole a cada passo.",
+        incorrect: "Sem pernas: ficas a rastejar até voltares a jogar ou bebes 4 goles."
+    },
+    {
+        numb: 203,
+        question: "Qual fruta tem seu próprio GPS térmico (pode detectar calor)?",
+        answer: "Morango",
+        options: [
+            "Laranja",
+            "Banana",
+            "Morango",
+            "Maçã"
+        ],
+        correct: "Sensor activado! Escolhe alguém para aproximar-se devagar de ti e ‘atacar’ com um beijo candente.",
+        incorrect: "Sem sinal: bebes 2 goles e finges ser uma fruta murcha."
+    },
+    {
+        numb: 204,
+        question: "Que criptomoeda usa o algoritmo de consenso Proof-of-Stake em vez de Proof-of-Work desde a sua ‘fusăo’ em 2022?",
+        answer: "Ethereum",
+        options: [
+            "Ethereum",
+            "Bitcoin",
+            "Litecoin",
+            "Monero"
+        ],
+        correct: "Staking bem-sucedido! Recebes 2 “goles de rendimento” e distribuis 1 gole a outro jogador.",
+        incorrect: "Gas alto: bebes 3 goles e ficas “pendurado” — não podes trocar de lugar neste turno."
+    },
+    {
+        numb: 205,
+        question: "Em que ano caiu a primeira grande onda da Peste Negra na Europa?",
+        answer: "1347",
+        options: [
+            "1347",
+            "1331",
+            "1361",
+            "1374"
+        ],
+        correct: "Sobreviveste à pandemia! Escolhe 2 jogadores para ficarem imunes a penalidades até a próxima ronda.",
+        incorrect: "Apanhado pela Peste! Bebe 4 goles e ficas 'isolado' numa quarentena: não podes interagir até voltares a jogar."
+    },
+    {
+        numb: 206,
+        question: "Como eram chamadas as procissões penitenciais que percorriam as cidades para aplacar a ira divina durante as pragas medievais?",
+        answer: "Bandeiras",
+        options: [
+            "Bandeiras",
+            "Confrarias",
+            "Cruzadas",
+            "Flagelantes"
+        ],
+        correct: "Flagelaste com sucesso! Escolhe 2 jogadores para bater no peito (simular flagelação) — quem desistir, bebe 3 goles.",
+        incorrect: "Flagelante fracassado: bebes 3 goles e fazes auto-flagelação de mentirinha (batendo no ombro) até à próxima ronda."
+    },
+    {
+        numb: 207,
+        question: "Como se chamava o sistema de servidão dominante na Europa Medieval?",
+        answer: "Feudalismo",
+        options: [
+            "Mercantilismo",
+            "Feudalismo",
+            "Manorialismo",
+            "Comunismo primitivo"
+        ],
+        correct: "Senhor feudal! Escolhe 2 'vassalos' (jogadores) para servirem 1 gole a ti e um ao grupo.",
+        incorrect: "Camponês rebelde: bebes 3 goles e fazes uma pantomima de arar o campo até tua próxima vez."
+    },
+    {
+        numb: 208,
+        question: "Que peste anterior à Peste Negra devastou o Império Romano no século III?",
+        answer: "Peste de Cipriano",
+        options: [
+            "Peste Antonina",
+            "Peste de Cipriano",
+            "Peste Justininiana",
+            "Peste de Galeno"
+        ],
+        correct: "Historiador nato! Avanças ao dobro do número que disseres ao lançar o dado.",
+        incorrect: "Antigo infetado: bebes 4 goles e corres em círculo imitando a fuga de um romano."
+    },
+    {
+        numb: 209,
+        question: "Como se chama a peça que transforma o movimento linear dos pistões em movimento rotativo?",
+        answer: "Cambota",
+        options: [
+            "Biela",
+            "Cambota",
+            "Árvore de cames",
+            "Caixa de velocidades"
+        ],
+        correct: "Giraste bem! Faz um rodopio triunfal e manda 1 gole a outro jogador como recompensa.",
+        incorrect: "Partido: bebes 5 goles enquanto giras lentamente como se estivesses a falhar a ignição."
+    },
+    {
+        numb: 210,
+        question: "O que faz a árvore de cames?",
+        answer: "Controla a abertura e fecho das válvulas",
+        options: [
+            "Gira as rodas",
+            "Move os pistões",
+            "Controla a abertura e fecho das válvulas",
+            "Aciona os injetores"
+        ],
+        correct: "Sincronizado! Esticas os braços como válvulas — quem não imitar, bebe 2 goles.",
+        incorrect: "Válvula fora de tempo: bebes 3 goles e ficas de braços abertos até voltares a jogar."
+    },
+    {
+        numb: 211,
+        question: "Que componente impede que a temperatura do motor suba perigosamente?",
+        answer: "Radiador",
+        options: [
+            "Compressor do ar condicionado",
+            "Radiador",
+            "Ventilador quente/frio",
+            "Filtro do ar"
+        ],
+        correct: "Arrefeceste bem! Todos os jogadores abanam-se como se estivessem a arrefecer e tu distribuis 1 gole.",
+        incorrect: "Sobre-aqueceste: bebe 4 goles e abana-te com as mãos como se estivesses em chamas."
+    },
+    {
+        numb: 212,
+        question: "Se ouvires um som metálico alto ao travar, qual é a provável causa?",
+        answer: "Discos/Pastilhas de travão danificados",
+        options: [
+            "Travão de mão mal afinado",
+            "Discos/Pastilhas de travão danificados",
+            "Medal de travão com ferrugem",
+            "Amortecedor gasto"
+        ],
+        correct: "Travagem de mestre! Escolhe um jogador para fazer de mecânico e fingir que te troca as pastilhas.",
+        incorrect: "Travão em chamas! Bebe 3 goles e trava subitamente no teu lugar (faz um 'skrrr')."
+    },
+    {
+        numb: 213,
+        question: "Para que serve o catalisador num carro?",
+        answer: "Reduzir emissões de gases poluentes",
+        options: [
+            "Reduzir o consumo de combustível",
+            "Aumentar a potência",
+            "Reduzir emissões de gases poluentes",
+            "Proteger o radiador"
+        ],
+        correct: "Eco-friendly! Escolhe alguém para beber 'biológico': troca a bebida por água por uma ronda.",
+        incorrect: "Poluente! Bebe 5 goles e dás um discurso dramático sobre salvar o planeta (no estilo de Miss Universo)."
+    },
+    {
+        numb: 214,
+        question: "Dos seguintes, o que faz acionar os travões de um camião?",
+        answer: "Ar",
+        options: [
+            "Ar",
+            "Fluido de travão",
+            "Óleo hidráulico",
+            "Cabo de aço"
+        ],
+        correct: "Pressão no ponto certo! Escolhe 1 jogador para parar completamente: não pode mover-se, falar ou beber até à tua próxima jogada.",
+        incorrect: "Travagem de emergência falhada! Bebes 4 goles e ficas a fazer sons de travão pneumático (‘pshhhhh-tchkk!’) sempre que alguém falar contigo até voltares a jogar."
+    },
+    {
+        numb: 215,
+        question: "Para qual destes fluidos a substituição deve ser realizada com o motor ligado e quente?",
+        answer: "ATF",
+        options: [
+            "Óleo do motor",
+            "Líquido de refrigeração do motor",
+            "Nenhum!",
+            "ATF"
+        ],
+        correct: "Temperatura ideal! Passas a próxima ronda isento de castigos (modo manutenção).",
+        incorrect: "Verificaste mal! Bebe 2 goles e segura algo quente nas mãos (tipo copo ou a tua testa) até voltares a jogar."
+    },
+    {
+        numb: 216,
+        question: "Qual é a ordem correta do ciclo de combustão de um motor térmico a 4 tempos?",
+        answer: "Injeção, Compressão, Ignição, Escape",
+        options: [
+            "Ignição, Injeção, Compressão, Escape",
+            "Compressão, Ignição, Injeção, Escape",
+            "Injeção, Compressão, Ignição, Escape",
+            "Escape, Injeção, Ignição, Compressão"
+        ],
+        correct: "Combustão perfeita! Grita ‘VRUUUM’ com convicção e avanças 1 casa por cada tempo que consigas dizer de cor (sem ler).",
+        incorrect: "Desincronizado! Bebes 4 goles e imitas um motor engasgado até alguém adivinhar qual dos tempos disseste errado."
+    },
+    {
+        numb: 217,
+        question: "Como se chama o sistema responsável por fornecer energia hidráulica, pneumática e elétrica em solo sem ligar os motores principais?",
+        answer: "APU (Unidade de Potência Auxiliar)",
+        options: [
+            "GPU (Unidade Geradora de Terra)",
+            "PDU (Power Distribution Unit)",
+            "APU (Unidade de Potência Auxiliar)",
+            "ACS (Aircraft Core System)"
+        ],
+        correct: "Sistema de apoio ativo! Escolhe 1 jogador para ser a tua APU — ele vai fazer sons de motor enquanto bebes à vontade.",
+        incorrect: "Sem energia auxiliar! Bebes 5 goles e ficas em modo de 'emergência energética' — só podes usar uma palavra por frase na próxima jogada."
+    },
+    {
+        numb: 218,
+        question: "Qual é a função dos slats nas asas de um avião comercial?",
+        answer: "Aumentar a curvatura da asa e atrasar o estol em baixas velocidades",
+        options: [
+            "Reduzir o arrasto em alta velocidade",
+            "Canalizar combustível entre as asas",
+            "Aumentar a curvatura da asa e atrasar o estol em baixas velocidades",
+            "Ativar a pressão do sistema hidráulico principal"
+        ],
+        correct: "Lift maximizado! Escolhe 1 jogador para estender os braços contigo como slats — quem baixar primeiro, bebe 3 goles.",
+        incorrect: "Estol iminente! Bebes 5 goles e gritas ‘STALL WARNING!’ com sotaque de copiloto até à tua próxima jogada."
+    },
+    {
+        numb: 219,
+        question: "Num sistema fly-by-wire, que componente interpreta os comandos do piloto e envia sinais aos atuadores?",
+        answer: "Computador de controle de voo (FCC)",
+        options: [
+            "Relevo hidráulico",
+            "Acelerómetro central",
+            "Computador de controle de voo (FCC)",
+            "ADIRU (Air Data Inertial Reference Unit)"
+        ],
+        correct: "Eletrónica estável! Controlas a próxima jogada de outro jogador como se fosses o sistema dele — sem protestos!",
+        incorrect: "Erro digital! Bebes 4 goles e finges estar com pane nos comandos (braços tremem, cabeça pende...) até voltares a jogar."
+    },
+    {
+        numb: 220,
+        question: "Qual é o propósito principal dos spoilers em voo de cruzeiro?",
+        answer: "Reduzir a sustentação e ajudar na descida controlada",
+        options: [
+            "Aumentar o empuxo",
+            "Reduzir o arrasto total",
+            "Reduzir a sustentação e ajudar na descida controlada",
+            "Refrigeração das superfícies aerodinâmicas"
+        ],
+        correct: "Spoilers deploy! Podes cortar o ‘lift’ de outro jogador: escolhe alguém para não avançar na próxima jogada.",
+        incorrect: "Descida abrupta! Bebes 3 goles e manténs os braços paralelos ao chão até tua próxima vez (modo spoiler ativado)."
+    },
+    {
+        numb: 221,
+        question: "Qual é a função do sistema Ram Air Turbine (RAT) em aeronaves comerciais?",
+        answer: "Gerar energia elétrica e hidráulica de emergência",
+        options: [
+            "Refrigeração dos freios durante o taxi",
+            "Gerar energia elétrica e hidráulica de emergência",
+            "Controlar a pressurização da cabine",
+            "Aumentar o fluxo de ar para as turbinas"
+        ],
+        correct: "Sobreviveste à emergência! Todos batem palmas como numa aterragem de Ryanair e tu distribuis 3 goles como herói.",
+        incorrect: "Perda total! Bebes 6 goles e finges fazer um ‘checklist de emergência’ em voz alta até voltares a jogar."
+    },
+    {
+        numb: 222,
+        question: "O que é o 'coffin corner' na performance de voo de uma aeronave?",
+        answer: "Zona de altitude onde a velocidade mínima e máxima permitidas estão muito próximas",
+        options: [
+            "O ponto onde o estol é inevitável em curva",
+            "Zona de altitude onde a velocidade mínima e máxima permitidas estão muito próximas",
+            "Momento de máxima carga G",
+            "Zona onde se inicia a compressibilidade do ar"
+        ],
+        correct: "Voo afiado como bisturi! Escolhe 2 jogadores para ‘voar contigo na coffin corner’: se errarem outra pergunta, bebem em dobro.",
+        incorrect: "Estás em zona crítica! Bebes 5 goles e finges estar a voar com máscaras de oxigénio ativadas (simula a máscara com a mão)."
     }
 ];
+
 /* {
         numb: 000,
         question: "Pergunta?",
