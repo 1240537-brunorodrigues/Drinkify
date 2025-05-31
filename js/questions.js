@@ -2897,13 +2897,429 @@ let questions = [
         ],
         correct: "Voo afiado como bisturi! Escolhe 2 jogadores para ‘voar contigo na coffin corner’: se errarem outra pergunta, bebem em dobro.",
         incorrect: "Estás em zona crítica! Bebes 5 goles e finges estar a voar com máscaras de oxigénio ativadas (simula a máscara com a mão)."
-    }
+    },
+    {
+        numb: 223,
+        question: "Qual é o planeta mais denso do Sistema Solar?",
+        answer: "Terra",
+        options: [
+            "Júpiter",
+            "Terra",
+            "Saturno",
+            "Vénus"
+        ],
+        correct: "Gravidade da atração! Escolhe alguém e ficam de mãos dadas até alguém acertar uma pergunta.",
+        incorrect: "Órbita descontrolada! Bebes 2 goles e dás uma volta sensual à volta de outro jogador como se fosses uma lua."
+    },
+    {
+        numb: 224,
+        question: "Qual foi o primeiro reality show em Portugal a atingir mais de 80% de audiência?",
+        answer: "Big Brother (2000)",
+        options: [
+            "Ídolos",
+            "Secret Story",
+            "Big Brother (2000)",
+            "A Quinta"
+        ],
+        correct: "Votado pelo público! Ganha uma imunidade: podes trocar de lugar com qualquer jogador e obrigá-lo a jogar no teu lugar na próxima ronda.",
+        incorrect: "Expulso da casa! Bebes 5 goles e fazes uma confissão escaldante sobre crushes na sala."
+    },
+    {
+        numb: 225,
+        question: "Segundo Platão, o que são as sombras na caverna?",
+        answer: "Ilusões da realidade percebida pelos sentidos",
+        options: [
+            "Os nossos instintos reprimidos",
+            "Vidas passadas",
+            "Ilusões da realidade percebida pelos sentidos",
+            "Representações das paixões humanas"
+        ],
+        correct: "Saíste da caverna! Dá um beijo simbólico de ‘iluminação’ a quem escolheres.",
+        incorrect: "Preso nas sombras! Bebes 3 goles e jogas a próxima ronda de olhos fechados… até alguém te ‘iluminar’ com um toque."
+    },
+    {
+        numb: 226,
+        question: "Para Nietzsche, o que representa o conceito de 'Eterno Retorno'?",
+        answer: "A vida deve ser vivida como se fosse repetida infinitamente",
+        options: [
+            "Tudo é uma ilusão eterna",
+            "A moral é cíclica e relativa",
+            "A vida deve ser vivida como se fosse repetida infinitamente",
+            "A alma volta após a morte em forma superior"
+        ],
+        correct: "Viver como se fosse para sempre? Então age como tal: dá um beijo repetido (3 vezes seguidas!) a quem escolheres — no mesmo lugar ou não.",
+        incorrect: "Negaste o eterno! Bebes 5 goles e repete uma ação sensual que já fizeste esta noite (a escolha é tua ou do grupo)."
+    },
+    {
+        numb: 227,
+        question: "Qual destas características é mais comum num manipulador emocional crónico?",
+        answer: "Gaslighting",
+        options: [
+            "Empatia excessiva",
+            "Gaslighting",
+            "Evitação de conflito",
+            "Altruísmo forçado"
+        ],
+        correct: "Ilusão desmontada! Escolhe alguém e obriga-o a duvidar de algo que acabou de dizer — se ele vacilar, distribuis 2 goles.",
+        incorrect: "Foste manipulado! Bebes 4 goles e deixas outro jogador escolher a tua resposta à tua próxima pergunta — sem discussão."
+    },
+    {
+        numb: 228,
+        question: "Segundo a teoria do 'triângulo dramático' de Karpman, quais são os 3 papéis principais?",
+        answer: "Salvador, Vítima e Perseguidor",
+        options: [
+            "Manipulador, Títere e Observador",
+            "Salvador, Vítima e Perseguidor",
+            "Herói, Vilão e Neutro",
+            "Mentor, Aluno e Rival"
+        ],
+        correct: "Jogada estratégica! Escolhe 3 jogadores (incluindo tu) e atribui os papéis — quem recusar o seu papel, bebe 3 goles.",
+        incorrect: "Preso no drama! Bebes 5 goles e fazes uma mini cena teatral no papel que achares que és na vida real."
+    },
+    {
+        numb: 229,
+        question: "Qual das seguintes estratégias é típica de um manipulador passivo-agressivo?",
+        answer: "Procrastinação intencional para punir o outro",
+        options: [
+            "Chantagem emocional direta",
+            "Explosões verbais repentinas",
+            "Procrastinação intencional para punir o outro",
+            "Crítica aberta constante"
+        ],
+        correct: "Passivo, mas letal! Imita alguém a dar desculpas esfarrapadas — quem rir, bebe 2 goles.",
+        incorrect: "Descoberto! Bebes 3 goles e tentas convencer alguém de que erraste de propósito para testar o grupo."
+    },
+    {
+        numb: 230,
+        question: "Qual destas atitudes revela 'triangulação', uma tática comum de manipulação?",
+        answer: "Envolver uma terceira pessoa para criar ciúmes ou tensão",
+        options: [
+            "Afastar-se para evitar conflito",
+            "Envolver uma terceira pessoa para criar ciúmes ou tensão",
+            "Dar presentes inesperados",
+            "Recusar-se a falar por dias"
+        ],
+        correct: "Jogada triangular! Escolhe 2 pessoas para entrar num drama inventado por ti — se acreditarem, distribuis goles.",
+        incorrect: "Viraste vítima da tua própria trama! Bebes 4 goles e tens de elogiar sinceramente quem está à tua frente."
+    },
+    {
+        numb: 231,
+        question: "Segundo a teoria da dissonância cognitiva, o que as pessoas tendem a fazer após cometerem um erro grave?",
+        answer: "Justificar mentalmente para aliviar o desconforto",
+        options: [
+            "Ignorar completamente o erro",
+            "Pedir desculpa imediata",
+            "Justificar mentalmente para aliviar o desconforto",
+            "Atacar os outros para desviar atenção"
+        ],
+        correct: "Cognitivamente justificado! Escolhe alguém e dá-lhe uma desculpa absurda para qualquer coisa — se ele aceitar, ele bebe.",
+        incorrect: "Ficou desconfortável? Bebes 2 goles e dás uma justificação aleatória para o erro... mesmo que ninguém tenha pedido."
+    },
+    {
+        numb: 232,
+        question: "O que é o efeito ‘halo’?",
+        answer: "Tendência de julgar positivamente tudo com base numa única qualidade",
+        options: [
+            "Pensar que todos nos estão a julgar",
+            "Ver o mundo como totalmente bom ou mau",
+            "Tendência de julgar positivamente tudo com base numa única qualidade",
+            "Achar que se é mais importante do que realmente é"
+        ],
+        correct: "Brilhaste! Escolhe alguém para te elogiar exageradamente durante 10 segundos. Se falhar, bebe por ti.",
+        incorrect: "O teu halo caiu! Bebes 3 goles e fazes um elogio desproporcional a ti mesmo."
+    },
+    {
+        numb: 233,
+        question: "No filme Joker (2019), qual é a mensagem psicológica central que Arthur Fleck representa?",
+        answer: "O colapso mental gerado pelo abandono",
+        options: [
+            "Desejo de fama acima de tudo",
+            "O colapso mental gerado pelo abandono",
+            "Necessidade de vingança",
+            "Sede de poder absoluto"
+        ],
+        correct: "Riu por último! Escolhe alguém para partilhar contigo um 'momento insano' de riso — quem falhar o clima, bebe.",
+        incorrect: "Tornaste-te o palhaço! Bebes 3 goles e dizes ‘you wouldn’t get it’ com ar perturbador."
+    },
+    {
+        numb: 234,
+        question: "Qual destes é um sinal clássico de narcisismo maligno?",
+        answer: "Combinação de grandiosidade com prazer na destruição alheia",
+        options: [
+            "Apenas insegurança profunda",
+            "Isolamento emocional",
+            "Combinação de grandiosidade com prazer na destruição alheia",
+            "Dificuldade em socializar"
+        ],
+        correct: "Sombra ativada! Aponta um jogador que julgas ser manipulador em segredo. Se a maioria concordar, ele bebe contigo.",
+        incorrect: "Olhaste demasiado para o espelho! Bebes 4 goles e elogia-te de forma absurda durante 15 segundos."
+    },
+    {
+        numb: 235,
+        question: "O que é 'amor-bomba' numa relação abusiva?",
+        answer: "Intensa demonstração de afeto para criar dependência emocional",
+        options: [
+            "Ignorar para punir",
+            "Intensa demonstração de afeto para criar dependência emocional",
+            "Amor falso usado em público",
+            "Ataques súbitos de ciúmes"
+        ],
+        correct: "Explosão emocional! Distribui beijos a 3 jogadores — se todos retribuírem, distribuis goles à vontade.",
+        incorrect: "Bomba falhada! Bebes 3 goles e tens de dizer algo fofo demais a alguém… que depois tem de te ignorar."
+    },
+    {
+        numb: 236,
+        question: "Segundo estudos, qual é a profissão onde mais se encontram traços psicopáticos?",
+        answer: "CEO",
+        options: [
+            "Professor",
+            "Médico",
+            "CEO",
+            "Polícia"
+        ],
+        correct: "Mandas em tudo! Ficas CEO do grupo até voltares a jogar — dás ordens simbólicas e todos têm de obedecer (ou beber).",
+        incorrect: "Foste despedido! Bebes 5 goles e assumes um cargo submisso escolhido por outro jogador."
+    },
+    {
+        numb: 237,
+        question: "Qual destes sinais pode indicar comportamento sádico cotidiano (sem ser criminoso)?",
+        answer: "Prazer em humilhar ou embaraçar outros publicamente",
+        options: [
+            "Ser competitivo",
+            "Rejeitar abraços",
+            "Prazer em humilhar ou embaraçar outros publicamente",
+            "Fazer piadas frequentes"
+        ],
+        correct: "Sádico social? Escolhe alguém para ‘embaraçar levemente’ com uma verdade divertida. Se não quiser, bebe por ti.",
+        incorrect: "A vítima foste tu! Bebes 4 goles e tens de contar a última vez que ficaste embaraçado de verdade."
+    },
+    {
+        numb: 228,
+        question: "Que político português disse a icónica frase 'É só fazer as contas'?",
+        answer: "Maria Luís Albuquerque",
+        options: [
+            "José Sócrates",
+            "Mário Centeno",
+            "Maria Luís Albuquerque",
+            "Passos Coelho"
+        ],
+        correct: "Contabilizaste bem! Escolhe alguém para te dar 50 cêntimos.",
+        incorrect: "Não batem as contas! Bebes 4 goles e tens de dizer “mas isso não está orçamentado” até à próxima ronda."
+    },
+    {
+        numb: 229,
+        question: "Em que cidade portuguesa se realiza anualmente a Queima das Fitas mais concorrida?",
+        answer: "Coimbra",
+        options: [
+            "Porto",
+            "Coimbra",
+            "Lisboa",
+            "Évora"
+        ],
+        correct: "Estás queimadíssimo! Faz um brinde em honra aos estudantes — todos bebem contigo.",
+        incorrect: "Bebeste sem fita! Não bebes durante uma ronda."
+    },
+    {
+        numb: 230,
+        question: "Qual destes era um snack clássico das máquinas nos anos 2000 em escolas portuguesas?",
+        answer: "Bolicao",
+        options: [
+            "Twinkie",
+            "Bolicao",
+            "Pingüinos",
+            "Yodels"
+        ],
+        correct: "Recreio desbloqueado! Todos cantam a música de uma série antiga — quem falhar, bebe.",
+        incorrect: "Foste ao bar… e já estava fechado. Bebes 2 goles e ficas em silêncio de castigo na cadeira até voltares a jogar."
+    },
+    {
+        numb: 231,
+        question: "Quem era o apresentador original do Curto Circuito da SIC Radical?",
+        answer: "Pedro Ribeiro",
+        options: [
+            "Joana Cruz",
+            "Pedro Ribeiro",
+            "Fernando Alvim",
+            "Diogo Valsassina"
+        ],
+        correct: "Radicalíssimo! Escolhe alguém e cria um momento cringe em direto como se estivesses no CC em 2002.",
+        incorrect: "Zapping total! Bebes 3 goles e ficas a narrar o jogo como se estivesses num programa juvenil durante uma ronda."
+    },
+    {
+        numb: 232,
+        question: "Como se chamava o primeiro computador distribuído pelo governo português às escolas?",
+        answer: "Magalhães",
+        options: [
+            "Infante",
+            "Saramago",
+            "Magalhães",
+            "Lusitano"
+        ],
+        correct: "Tecnologia do povo! Escolhe alguém para ‘travar’ como um Magalhães: simula lag e bloqueios durante 10 segundos.",
+        incorrect: "Crashaste! Bebes 4 goles e finges que reinicias com sons tipo ‘piri-piri-prr’."
+    },
+    {
+        numb: 233,
+        question: "Que cantor português é conhecido por 'tens de dar o litro, como eu dei ontem à noite'?",
+        answer: "Toy",
+        options: [
+            "Tony Carreira",
+            "Toy",
+            "Quim Barreiros",
+            "Marco Paulo"
+        ],
+        correct: "Deste o litro! Fazes um brinde à malandrice e distribuis 1 gole a quem tiver o melhor sorriso maroto.",
+        incorrect: "Bebeste água com gás! Bebes 3 goles e dizes uma frase sensual com voz de cantor pimba."
+    },
+    {
+        numb: 234,
+        question: "Qual era o nome da vaca dos anúncios do leite Matinal?",
+        answer: "Mimosa",
+        options: [
+            "Matilde",
+            "Mimosa",
+            "Clarinha",
+            "Lelé"
+        ],
+        correct: "Muuuuuuito bem! Fazes uma dança de vaquinha com outro jogador à tua escolha.",
+        incorrect: "Foste ordenhado pela vergonha! Bebes 2 goles e muges sempre que fores chamado."
+    },
+    {
+        numb: 235,
+        question: "Qual é o prato típico associado à festa do São João no Porto?",
+        answer: "Sardinhas assadas com pimento",
+        options: [
+            "Bacalhau com broa",
+            "Sardinhas assadas com pimento",
+            "Tripas à moda do Porto",
+            "Francesinha"
+        ],
+        correct: "Santo és tu! Distribui goles como se fossem manjericos — quem não rima, bebe.",
+        incorrect: "Ficou sem grelha! Bebes 3 goles e ficas a cheirar a tua bebida como se fosse sardinha até à próxima jogada."
+    },
+    {
+        numb: 236,
+        question: "O que significa 'andar à nora' em português de Portugal?",
+        answer: "Estar completamente perdido",
+        options: [
+            "Estar completamente perdido",
+            "Estar de castigo",
+            "Fingir que trabalha",
+            "Estar a namorar"
+        ],
+        correct: "Sabes tudo, ó nora! Escolhe alguém para te dar uma pista na próxima pergunta.",
+        incorrect: "Estás mesmo à nora! Bebes 2 goles e tens de perguntar 'o que é que se passa aqui?' até voltares a jogar."
+    },
+    {
+        numb: 237,
+        question: "Que cantor português lançou a música 'Ai se eu te pego' em versão nacional?",
+        answer: "José Malhoa",
+        options: [
+            "Toy",
+            "José Malhoa",
+            "Ruth Marlene",
+            "Emanuel"
+        ],
+        correct: "Pegaste em cheio! Escolhe alguém para te cantar um verso pimba ao ouvido.",
+        incorrect: "Foste tu quem foi apanhado! Bebes 3 goles e danças um passinho à la Malhoa para o grupo."
+    },
+    {
+        numb: 238,
+        question: "O que viralizou quando uma mulher na CMTV foi apanhada a roubar e respondeu de forma inusitada?",
+        answer: "'Isto é só para experimentar!'",
+        options: [
+            "'Isto é só para experimentar!'",
+            "'Não fui eu, foi a minha prima!'",
+            "'Estava a segurar para uma amiga!'",
+            "'É do lixo, estava fora!'"
+        ],
+        correct: "Experimentaste bem! Escolhe um jogador e oferece-lhe um gole 'só para experimentar'. Se recusar, bebe tu.",
+        incorrect: "Foste apanhado em direto! Bebes 2 goles e dizes 'não fui eu!' sempre que alguém te acusar de algo nesta ronda."
+    },
+    {
+        numb: 239,
+        question: "No famoso vídeo da discussão no metro, o que grita a mulher em surto?",
+        answer: "'O comboio é meu!'",
+        options: [
+            "'Saiam da minha frente!'",
+            "'O comboio é meu!'",
+            "'Chama o revisor!'",
+            "'Eu sou funcionária pública!'"
+        ],
+        correct: "Mandas nisto tudo! Ficas dono do jogo por 1 ronda — mudas as regras como quiseres.",
+        incorrect: "Foste empurrado para fora! Bebes 3 goles e dás um discurso dramático como se estivesses em direto."
+    },
+    {
+        numb: 240,
+        question: "O que respondeu Cátia Palhinha quando lhe perguntaram 'Qual é o feminino de cavalo?'?",
+        answer: "Cavala",
+        options: [
+            "Cavala",
+            "Égua",
+            "Cavalinha",
+            "Cavalete"
+        ],
+        correct: "Resposta icónica! Todos imitam um cavalo durante 10 segundos. Quem se recusar, bebe.",
+        incorrect: "Resposta errada! Bebes 3 goles e fazes o som de um cavalo."
+    },
+    {
+        numb: 241,
+        question: "Qual foi o segredo de Cátia Palhinha na Casa dos Segredos 2?",
+        answer: "Trabalhei num cabaré",
+        options: [
+            "Trabalhei num cabaré",
+            "Sou cúmplice da Voz",
+            "Sou filha de um famoso",
+            "Fui mãe aos 15 anos"
+        ],
+        correct: "Segredo revelado! Escolhe alguém para partilhar um segredo fictício.",
+        incorrect: "Segredo mal guardado! Bebes 2 goles e inventas um segredo embaraçoso."
+    },
+    {
+        numb: 242,
+        question: "Qual foi a palavra que Bernardina popularizou ao expor mensagens do Tiago Ginga?",
+        answer: "Xaroca",
+        options: [
+            "Xaroca",
+            "Xuxa",
+            "Xoné",
+            "Xunga"
+        ],
+        correct: "Xaroca desbloqueada! Escolhe alguém para fazer uma leitura dramática de uma mensagem fictícia.",
+        incorrect: "Foste apanhado a enviar mensagens comprometedoras! Bebes 3 goles e finges estar a esconder o telemóvel."
+    },
+    {
+        numb: 243,
+        question: "Com quem Bernardina teve um confronto memorável durante uma gala?",
+        answer: "Zezé Camarinha",
+        options: [
+            "Zezé Camarinha",
+            "Teresa Guilherme",
+            "Cristina Ferreira",
+            "Tiago Ginga"
+        ],
+        correct: "Confronto vencido! Escolhe alguém para um duelo de olhares intensos. Quem desviar primeiro, bebe.",
+        incorrect: "Foste derrotado no confronto! Bebes 4 goles e fazes uma declaração dramática de derrota."
+    },
+    {
+        numb: 244,
+        question: "Qual foi o título da música lançada por Bernardina em 2014?",
+        answer: "Minha Xuxa",
+        options: [
+            "Minha Xuxa",
+            "Vida Loca",
+            "Xaroca Dance",
+            "Rainha do Caos"
+        ],
+        correct: "Estrela pop! Canta um trecho da música com entusiasmo. Quem não aplaudir, bebe.",
+        incorrect: "Nota desafinada! Bebes 2 goles e fazes uma coreografia improvisada."
+    },
 ];
 
 /* {
         numb: 000,
         question: "Pergunta?",
-        answer: "R Certa",
+        answer: "RCerta",
         options: [
             "R",
             "R",
