@@ -3314,6 +3314,136 @@ let questions = [
         correct: "Estrela pop! Canta um trecho da música com entusiasmo. Quem não aplaudir, bebe.",
         incorrect: "Nota desafinada! Bebes 2 goles e fazes uma coreografia improvisada."
     },
+    {
+        numb: 245,
+        question: "Em que rede social se tornou viral o meme 'Damn Daniel'?",
+        answer: "Snapchat",
+        options: [
+            "Instagram",
+            "TikTok",
+            "Snapchat",
+            "Vine"
+        ],
+        correct: "Damn, acertaste! Todos dizem 'Damn James!' com entusiasmo. Se alguém se recusar, bebe.",
+        incorrect: "Foste banido do Snapchat! Bebes 2 goles e mostras o teu outfit como se fosses o Daniel."
+    },
+    {
+        numb: 246,
+        question: "O que diz o meme do 'Kermit do mal' (Dark Kermit)?",
+        answer: "'Do it.'",
+        options: [
+            "'Don’t do it.'",
+            "'Do it.'",
+            "'Trust no one.'",
+            "'Why are you like this?'"
+        ],
+        correct: "Tens um lado negro! Escolhe alguém e sussurra-lhe um conselho maléfico. Se ele seguir, distribui goles.",
+        incorrect: "Foste dominado pelo bem! Bebes 2 goles e ficas em silêncio a olhar para o vazio durante 10 segundos."
+    },
+    {
+        numb: 247,
+        question: "Em que contexto viral surgiu a frase 'Ain’t nobody got time for that'?",
+        answer: "Entrevista após incêndio",
+        options: [
+            "Entrevista após incêndio",
+            "Discussão no supermercado",
+            "Live de TikTok",
+            "Reação a uma multa"
+        ],
+        correct: "Time for you to shine! Faz um discurso rápido sobre um problema sem importância. Quem rir, bebe.",
+        incorrect: "Tempo perdido! Bebes 3 goles e tens de responder 'ain’t nobody got time for that' cada vez que fores chamado."
+    },
+    {
+        numb: 248,
+        question: "Qual é a maior estrela conhecida atualmente?",
+        answer: "UY Scuti",
+        options: [
+            "Betelgeuse",
+            "UY Scuti",
+            "VY Canis Majoris",
+            "Rigel"
+        ],
+        correct: "Gigante estelar! Finge que és uma estrela supergigante em colapso — distribuis 3 goles.",
+        incorrect: "Estrela encolheu! Bebes 2 goles e murchas lentamente até ao chão."
+    },
+    {
+        numb: 249,
+        question: "Qual é a diferença entre um meteorito e um meteoro?",
+        answer: "O meteorito atinge o solo, o meteoro não",
+        options: [
+            "O meteorito é maior",
+            "O meteoro é feito de gás",
+            "O meteorito atinge o solo, o meteoro não",
+            "São a mesma coisa com nomes diferentes"
+        ],
+        correct: "Impacto certeiro! Escolhe alguém para ser atingido (simbolicamente). Ele bebe.",
+        incorrect: "Foste atingido pela dúvida! Bebes 2 goles e imitas um meteorito a cair lentamente."
+    },
+    {
+        numb: 250,
+        question: "O que acontece a um astronauta exposto ao vácuo do espaço sem proteção?",
+        answer: "Morre rapidamente por despressurização",
+        options: [
+            "Explode",
+            "Morre rapidamente por despressurização",
+            "Fica congelado instantaneamente",
+            "Flutua inconsciente por horas"
+        ],
+        correct: "Sobreviveste à pergunta! Escolhe alguém para fazer cara de astronauta aflito. Quem não conseguir, bebe.",
+        incorrect: "Foste para o espaço... sem fato! Bebes 3 goles e ficas em silêncio absoluto até ao próximo turno."
+    },
+    {
+        numb: 251,
+        question: "Qual é a principal evidência observacional para a existência de matéria escura?",
+        answer: "Curvas de rotação galácticas",
+        options: [
+            "Curvas de rotação galácticas",
+            "Radiação cósmica de fundo",
+            "Lentes gravitacionais",
+            "Explosões de supernovas"
+        ],
+        correct: "Detetaste a matéria escura! Todos te aplaudem silenciosamente (sem som).",
+        incorrect: "Matéria escura escapou! Bebes 3 goles e ficas invisível (cobre-te com algo) por uma rodada."
+    },
+    {
+        numb: 252,
+        question: "Em que ano Portugal aderiu à União Europeia?",
+        answer: "1986",
+        options: [
+            "1986",
+            "1984",
+            "1990",
+            "1992"
+        ],
+        correct: "Integraste-te com sucesso! Escolhe um jogador para te dar um beijinho na testa… ou em sítio à escolha (com consentimento).",
+        incorrect: "Ficaste isolado da Europa! Bebes 4 goles e só podes falar em francês até à tua próxima jogada. Se não conseguires, beijas a tua mão com paixão a fingir que é o Macron."
+    },
+    {
+        numb: 253,
+        question: "Qual dos seguintes é conhecido por suas músicas de intervenção durante o Estado Novo?",
+        answer: "José Afonso",
+        options: [
+            "José Afonso",
+            "Os Azeitonas",
+            "UHF",
+            "Xutos & Pontapés"
+        ],
+        correct: "Libertaste a revolução! Escolhe um jogador para te libertar de uma peça de roupa (à escolha do grupo).",
+        incorrect: "Foste censurado! Bebes 3 goles e ficas proibido de falar durante 1 ronda — só comunicas com olhares sedutores."
+    },
+    {
+        numb: 254,
+        question: "Qual destes artistas é conhecido por misturar fado com música eletrônica?",
+        answer: "Rodrigo Leão",
+        options: [
+            "Rodrigo Leão",
+            "Mariza",
+            "Gisela João",
+            "Ana Moura"
+        ],
+        correct: "Batida perfeita! Dança lentamente com alguém (ao som imaginário de um fado eletrónico) e depois distribui 2 goles como DJ sensual.",
+        incorrect: "Ritmo trocado! Bebes 2 goles e tens de dar uma palmada carinhosa (mas sonante) a alguém... ou bebes o dobro."
+    }
 ];
 
 /* {
