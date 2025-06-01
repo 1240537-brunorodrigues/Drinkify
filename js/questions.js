@@ -3264,7 +3264,7 @@ let questions = [
     },
     {
         numb: 241,
-        question: "Qual foi o segredo de Cátia Palhinha na Casa dos Segredos 2?",
+        question: "Qual foi o segredo da Cátia Palhinha na Casa dos Segredos 2?",
         answer: "Trabalhei num cabaré",
         options: [
             "Trabalhei num cabaré",
