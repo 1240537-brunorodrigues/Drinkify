@@ -159,34 +159,42 @@ document.addEventListener("DOMContentLoaded", () => {
      *********************************************************/
     const cardsArray = Array.isArray(window.cards) ? window.cards : [];
     if (!cardsArray.length) {
-        console.warn('No cards defined. Please check js/cards.js exports.');
+        console.warn("No cards defined. Please check js/cards.js exports.");
     }
 
     if (drawCardBtn && cardDisplay) {
-        drawCardBtn.addEventListener('click', () => {
+        drawCardBtn.addEventListener("click", () => {
             if (!cardsArray.length) {
                 cardDisplay.innerHTML = '<p style="color:red;">No cards available.</p>';
                 return;
             }
-            // Pick a random index
+
+            // 1) Escolhe um índice aleatório
             const idx = Math.floor(Math.random() * cardsArray.length);
             const cardObj = cardsArray[idx];
 
-            // Build separate title and content
-            const titleHTML = `<h3 class="card-title">${cardObj.title}</h3>`;
+            // 2) Gera as duas partes do HTML (título e conteúdo)
+            const titleHTML   = `<h3 class="card-title">${cardObj.title}</h3>`;
             const contentHTML = `<p class="card-content">${cardObj.content}</p>`;
 
+            // 3) Usa essas variáveis para preencher o cardDisplay completo
             cardDisplay.innerHTML = `
-  <div class="card-wrapper">
-    <h3 class="card-title">${cardObj.title}</h3>
-    <p class="card-content">${cardObj.content}</p>
-  </div>
+      <div class="card-wrapper">
+        ${titleHTML}
+        ${contentHTML}
+      </div>
     `;
-// Em seguida, adiciona a classe que faz a carta “entrar” suave:
+
+            // 4) Se você quiser animação de fade-in (opcional), adicione a classe "visible"
             const wrapper = cardDisplay.querySelector(".card-wrapper");
-// Força reflow pra garantir que a transição ocorra:
-            void wrapper.offsetWidth;
-            wrapper.classList.add("visible");
+            if (wrapper) {
+                // força reflow para garantir a transição CSS
+                void wrapper.offsetWidth;
+                wrapper.classList.add("visible");
+            }
+
+            // 5) (Opcional) cartão não repetir:
+            // cardsArray.splice(idx, 1);
         });
     }
 

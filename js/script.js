@@ -3,81 +3,128 @@
 // ================================
 
 /* ----------------------------------------
-   1) Grab & initialize state
+   1) Elementos do DOM
    ---------------------------------------- */
 const quiz_box    = document.querySelector(".quiz_box");
 const result_box  = document.querySelector(".result_box");
 const option_list = document.querySelector(".option_list");
-
-// “Next” button no footer
 const next_btn    = document.querySelector(".next_btn");
 
+/* ----------------------------------------
+   2) Estado global
+   ---------------------------------------- */
+// Array de índices de perguntas ainda disponíveis
 let no_repeat;
+
+// Índice atual da pergunta que está sendo exibida
 let que_count;
+
+// Resposta selecionada pelo usuário
 let userAns;
+
+// Flag se a resposta está certa ou não
 let correct;
+
+// Texto do “desafio” (correto/errado)
 let challenge;
-let counter;
-let counterLine;
+
+// (Tempos que eventualmente você use)
+let counter, counterLine;
 
 /* ----------------------------------------
-   2) Initialize no_repeat on first load
+   3) Inicialização do no_repeat em sessionStorage
    ---------------------------------------- */
-if (sessionStorage.getItem("no_repeat") === null) {
-    const temp = [];
+if (!sessionStorage.getItem("no_repeat")) {
+    // Monta array [0, 1, 2, ..., questions.length-1]
+    const arr = [];
     for (let i = 0; i < questions.length; i++) {
-        temp.push(i);
+        arr.push(i);
     }
-    sessionStorage.setItem("no_repeat", JSON.stringify(temp));
+    sessionStorage.setItem("no_repeat", JSON.stringify(arr));
 }
 
+// Carrega no_repeat da sessionStorage
 no_repeat = JSON.parse(sessionStorage.getItem("no_repeat"));
 
-// Escolhe aleatoriamente uma pergunta que ainda não foi usada
-(function pickRandomQuestion() {
-    const total = questions.length;
-    let idx = Math.floor(Math.random() * total);
-    while (no_repeat[idx] == null) {
-        idx = Math.floor(Math.random() * total);
-    }
-    que_count = idx;
-})();
+/* ----------------------------------------
+   4) Função que pega aleatoriamente um índice e já “marca” como usado
+   ---------------------------------------- */
+function getRandomQuestionIndex() {
+    // Se não restar nenhuma pergunta, retorna null
+    if (!Array.isArray(no_repeat) || no_repeat.length === 0) return null;
+
+    // Pega um índice aleatório dentro de no_repeat
+    const randomPos = Math.floor(Math.random() * no_repeat.length);
+    const questionIndex = no_repeat[randomPos];
+
+    // Remove esse índice do array no_repeat e salva no sessionStorage
+    no_repeat.splice(randomPos, 1);
+    sessionStorage.setItem("no_repeat", JSON.stringify(no_repeat));
+
+    return questionIndex;
+}
 
 /* ----------------------------------------
-   3) Função para iniciar o quiz imediatamente
+   5) Função para iniciar/mostrar o Quiz
    ---------------------------------------- */
 function startQuiz() {
     if (!quiz_box) {
-        console.warn("Quiz container não encontrado.");
+        console.warn("container .quiz_box não encontrado.");
         return;
     }
-    quiz_box.classList.add("activeQuiz");  // exibe o quiz
+
+    // Tenta obter um novo índice de pergunta
+    const nextIndex = getRandomQuestionIndex();
+
+    if (nextIndex === null) {
+        // Se não houver mais perguntas, exibe mensagem e encerra
+        quiz_box.classList.remove("activeQuiz");
+        result_box.classList.add("activeResult");
+        const scoreTextEl = result_box.querySelector(".score_text");
+        const iconEl      = result_box.querySelector(".icon");
+
+        iconEl.innerHTML = '<i class="fas fa-info-circle"></i>';
+        scoreTextEl.innerHTML = `<span>Não há mais perguntas nesta sessão. Atualize a página para recomeçar.</span>`;
+        return;
+    }
+
+    // Define o índice da pergunta atual
+    que_count = nextIndex;
+
+    // Mostra o quiz box e renderiza a pergunta
+    quiz_box.classList.add("activeQuiz");
     showQuestions(que_count);
 }
 
 window.startQuiz = startQuiz;
 
 /* ----------------------------------------
-   4) Função para resetar estado do quiz
+   6) Função para “resetar” apenas quiz/resulBox (não reseta no_repeat)
    ---------------------------------------- */
 function resetQuiz() {
-    sessionStorage.removeItem("no_repeat");
+    // Limpa quaisquer timers pendentes
     clearInterval(counter);
     clearInterval(counterLine);
+
+    // Esconde a caixa de quiz e resultados
     quiz_box?.classList.remove("activeQuiz");
     result_box?.classList.remove("activeResult");
+
+    // Esconde o botão “Ver Desafio”
+    next_btn?.classList.remove("show");
 }
 
 window.resetQuiz = resetQuiz;
 
 /* ----------------------------------------
-   5) Next Button (quando clica “Ver Desafio”)
+   7) Quando usuário clica em “Ver Desafio”
    ---------------------------------------- */
 if (next_btn) {
     next_btn.addEventListener("click", () => {
         const correctAnswer = questions[que_count].answer;
         correct = (userAns === correctAnswer);
 
+        // Pára timers, se houver
         clearInterval(counter);
         clearInterval(counterLine);
 
@@ -86,37 +133,39 @@ if (next_btn) {
 }
 
 /* ----------------------------------------
-   6) Renderiza a pergunta & opções
+   8) Exibe questão + embaralha opções
    ---------------------------------------- */
 function showQuestions(index) {
     const que_text = document.querySelector(".que_text");
-    if (!que_text || !option_list) return;
+    if (!que_text || !option_list) {
+        console.warn("Containers de pergunta não encontrados.");
+        return;
+    }
 
     // 1) Embaralha as opções
     const nums = [0, 1, 2, 3];
     const randOrder = [];
     let i = nums.length;
     while (i--) {
-        const j = Math.floor(Math.random() * (i + 1));
-        randOrder.push(nums[j]);
-        nums.splice(j, 1);
+        const r = Math.floor(Math.random() * (i + 1));
+        randOrder.push(nums[r]);
+        nums.splice(r, 1);
     }
 
-    // 2) Insere o texto da pergunta
+    // 2) Renderiza a pergunta
     const qObj = questions[index];
-    const queTag = `<span>${qObj.numb}. ${qObj.question}</span>`;
-    que_text.innerHTML = queTag;
+    que_text.innerHTML = `<span>${qObj.numb}. ${qObj.question}</span>`;
 
-    // 3) Insere as quatro opções embaralhadas
-    const optionTag = `
+    // 3) Renderiza as 4 opções embaralhadas
+    const optionHTML = `
     <div class="option"><span>${qObj.options[randOrder[0]]}</span></div>
     <div class="option"><span>${qObj.options[randOrder[1]]}</span></div>
     <div class="option"><span>${qObj.options[randOrder[2]]}</span></div>
     <div class="option"><span>${qObj.options[randOrder[3]]}</span></div>
   `;
-    option_list.innerHTML = optionTag;
+    option_list.innerHTML = optionHTML;
 
-    // 4) Coloca listener em cada opção
+    // 4) Adiciona event listener em cada opção
     const allOptions = option_list.querySelectorAll(".option");
     allOptions.forEach((opt) => {
         opt.addEventListener("click", () => optionSelected(opt));
@@ -124,34 +173,35 @@ function showQuestions(index) {
 }
 
 /* ----------------------------------------
-   7) Tratamento ao clicar numa opção
+   9) Lógica ao clicar numa opção
    ---------------------------------------- */
 function optionSelected(answerEl) {
+    // pára eventuais timers
     clearInterval(counter);
     clearInterval(counterLine);
 
     userAns = answerEl.textContent.trim();
 
-    // Desabilita todas as opções
+    // desabilita todas as opções
     const allOpts = option_list.querySelectorAll(".option");
     allOpts.forEach((opt) => {
         opt.classList.add("disabled");
     });
 
-    // Destaca a opção clicada
+    // destaca a opção clicada
     answerEl.classList.add("option_click");
 
-    // Exibe botão “Ver Desafio”
+    // mostra botão “Ver Desafio”
     next_btn?.classList.add("show");
 }
 
 /* ----------------------------------------
-   8) Exibe o resultado (sem botões extras)
+   10) Exibe resultado/libera próximo passo
    ---------------------------------------- */
 function showResult() {
     if (!quiz_box || !result_box) return;
 
-    // Esconde o quiz e mostra a caixa de resultado
+    // esconde quiz, mostra resultado
     quiz_box.classList.remove("activeQuiz");
     result_box.classList.add("activeResult");
 
