@@ -4,10 +4,6 @@ window.cards = [
         content: "Ou tu bebes 5 e todos bebem 2, ou todos bebem 2 e tu bebes 5."
     },
     {
-        title: "SIDA",
-        content: "Se já comeste a pessoa à tua esquerda bebe. Bebe a dobrar se tiver sida."
-    },
-    {
         title: "CAN I GET A _______ ?",
         content: "Quem não souber acaba o copo."
     },
@@ -109,11 +105,11 @@ window.cards = [
     },
     {
         title: "GOLES SOMATÓRIOS",
-        content: "Bebes 1 gole, a pessoa à tua direita\nbebe 2, … até dar 1 volta completa."
+        content: "Bebes 1 gole, a pessoa à tua direita bebe 2, … até dar 1 volta completa."
     },
     {
         title: "NO HOMO",
-        content: "Quem já teve pelo menos uma experiência\ncom alguém do mesmo sexo bebe."
+        content: "Quem já teve pelo menos uma experiência com alguém do mesmo sexo bebe."
     },
     {
         title: "INFLUENCER?",
@@ -133,7 +129,7 @@ window.cards = [
     },
     {
         title: "THIS IS NOT HAPPENING",
-        content: "Da roda, quem é a pessoa que menos\ngostarias de estar preso num elevador?\nEssa pessoa bebe 2."
+        content: "Da roda, quem é a pessoa que menos gostarias de estar preso num elevador?\nEssa pessoa bebe 2."
     },
     {
         title: "HAPPY BDAY",
@@ -149,15 +145,15 @@ window.cards = [
     },
     {
         title: "YOU'RE ON YOUR OWN KID",
-        content: "Mete-te debaixo da mesa durante\n1 ronda e bebe (debaixo)."
+        content: "Mete-te debaixo da mesa durante 1 ronda e bebe (debaixo)."
     },
     {
         title: "HABILIDOSO",
-        content: "Bebe 5 se achas que conseguias\nfazer a pessoa à tua esquerda vir-se\nem menos de 10 minutos."
+        content: "Bebe 5 se achas que conseguias fazer a pessoa à tua esquerda vir-se em menos de 10 minutos."
     },
     {
         title: "FINDING NEMO",
-        content: "Escolhe uma cor.\nA primeira pessoa a trazer um objeto\ncom essa cor distribui 4 goles."
+        content: "Escolhe uma cor.\nA primeira pessoa a trazer um objeto com essa cor distribui 4 goles."
     },
     {
         title: "PORTUGUÊS DE 2º ANO",
@@ -165,7 +161,7 @@ window.cards = [
     },
     {
         title: "ESTUDASSES",
-        content: "Se devias estar a estudar\nmas estás aqui bebe 3."
+        content: "Se devias estar a estudar mas estás aqui bebe 3."
     },
     {
         title: "CHUMBADO?",
@@ -177,7 +173,7 @@ window.cards = [
     },
     {
         title: "I DID SOMETHING BAD",
-        content: "Roda a roleta 2x, beija uma pessoa\ne manda a outra beber."
+        content: "Roda a roleta 2x, beija uma pessoa e manda a outra beber."
     },
     {
         title: "BAD IDEA, RIGHT?",
@@ -185,19 +181,19 @@ window.cards = [
     },
     {
         title: "BITE ME",
-        content: "Deixa a pessoa à tua esquerda\nmorder-te o rabo ou bebe 2."
+        content: "Deixa a pessoa à tua esquerda morder-te o rabo ou bebe 2."
     },
     {
         title: "FOI BOM, NÉ?",
-        content: "Todos os que beberam na última\ncarta bebem agora o dobro."
+        content: "Todos os que beberam na última carta bebem agora o dobro."
     },
     {
         title: "BREAK MY SOUL",
-        content: "A carta fica á tua frente uma ronda.\nDurante este tempo bebe a dobrar."
+        content: "A carta fica à tua frente uma ronda.\nDurante este tempo bebe a dobrar."
     },
     {
         title: "THE LUCKY ONE?",
-        content: "Lança o dado e bebe o número\nde goles que calhar no dado."
+        content: "Lança o dado e bebe o número de goles que calhar no dado."
     },
     {
         title: "LOOK WHAT YOU MADE ME DO",
@@ -209,7 +205,7 @@ window.cards = [
     },
     {
         title: "CUFF IT",
-        content: "Dá um aperto de mão à pessoa\nà tua direita, a 1ª desistir bebe."
+        content: "Dá um aperto de mão à pessoa à tua direita, a 1ª desistir bebe."
     },
     {
         title: "ARISE AND SHINE",
@@ -233,7 +229,7 @@ window.cards = [
     },
     {
         title: "16 CARRIAGES",
-        content: "O grupo escolhe alguém para te cavalgar\nenquanto tentas beber um copo."
+        content: "O grupo escolhe alguém para te cavalgar enquanto tentas beber um copo."
     },
     {
         title: "DON’T SPEAK",
@@ -241,7 +237,7 @@ window.cards = [
     },
     {
         title: "TELEPHONE",
-        content: "Telefone estragado.\nBebe a começar na pessoa que deu errado\ne cada pessoa a partir daí bebe mais 1."
+        content: "Telefone estragado.\nBebe a começar na pessoa que deu errado e cada pessoa a partir daí bebe mais 1."
     },
     {
         title: "AVE MARIA",
@@ -249,15 +245,15 @@ window.cards = [
     },
     {
         title: "I WANT TO BREAK FREE",
-        content: "Quem acabou um relacionamento\nhá menos de um ano bebe."
+        content: "Quem acabou um relacionamento há menos de um ano bebe."
     },
     {
         title: "WANNABE DIFÍCEIS",
-        content: "As pessoas que não queriam\nestar aqui mas estão bebem."
+        content: "As pessoas que não queriam estar aqui mas estão bebem."
     },
     {
         title: "STONKS",
-        content: "O primeiro a postar um storie\ndo tabuleiro distribui 5 goles."
+        content: "O primeiro a postar um Insta Story do tabuleiro distribui 5 goles."
     },
     {
         title: "RUSH",
@@ -269,7 +265,7 @@ window.cards = [
     },
     {
         title: "BOOM",
-        content: "Lança um dado.\nVão contando os números mas nos múltiplos\ndeste mesmo dizes “boom” no seu lugar.\nBebe quem falhar ou demorar."
+        content: "Lança um dado.\nVão contando os números mas nos múltiplos deste mesmo dizes “boom” no seu lugar.\nBebe quem falhar ou demorar."
     },
     {
         title: "TRISTE COM T",
@@ -293,7 +289,7 @@ window.cards = [
     },
     {
         title: "CALL ME BACK",
-        content: "Quem já levou ghost bebe."
+        content: "Quem já levou ghost bebe (1 gole por cada ghost)."
     },
     {
         title: "GYM RAT",
@@ -385,7 +381,7 @@ window.cards = [
     },
     {
         title: "0,5 CONTA",
-        content: "Quem já pinou nesta casa bebe."
+        content: "Quem já pinou nesta casa (ou onde estão) bebe."
     },
     {
         title: "AMIGOS AMIGOS TELEMÓVEIS À PARTE",
@@ -417,7 +413,7 @@ window.cards = [
     },
     {
         title: "LESMA",
-        content: "O jogador mais longe de\nterminar o jogo bebe."
+        content: "O jogador mais longe de terminar o jogo bebe."
     },
     {
         title: "DELINQUENTE",
@@ -428,15 +424,11 @@ window.cards = [
         content: "Ou tu bebes 5 e todos bebem 2\nOu tu bebes 2 e todos bebem 5."
     },
     {
-        title: "DADDY?",
-        content: "Quem já comeu alguém com\nmais de 5 anos de diferença bebe."
+        title: "DADDY? MOMMY?",
+        content: "Quem já comeu alguém com mais de 5 anos de diferença bebe."
     },
     {
-        title: "MOMMY?",
-        content: "Quem já comeu alguém com\nmais de 5 anos de diferença bebe."
-    },
-    {
-        title: "BENÇÃO",
+        title: "BÊNÇÃO",
         content: "Ambos os jogadores à tua esquerda e à tua direita\ndevem dar-te um beijo na testa.\nSe alguém se recusar bebem todos."
     },
     {
@@ -461,7 +453,7 @@ window.cards = [
     },
     {
         title: "SI FODJI",
-        content: "Mete esta carta à frente\nde um jogador durante 1 ronda.\nEssa pessoa bebe a dobrar\ndurante esse tempo."
+        content: "Mete esta carta à frente de um jogador durante 1 ronda.\nEssa pessoa bebe a dobrar durante esse tempo."
     },
     {
         title: "VAI UMA SAÚDE?",
@@ -469,11 +461,11 @@ window.cards = [
     },
     {
         title: "PICK A STRUGGLE",
-        content: "Podes avançar o número de casas\nque quiseres mas tens de beber\no mesmo número de goles\n(limite 10)."
+        content: "Podes avançar o número de casas que quiseres mas tens de beber o mesmo número de goles\n(limite 10)."
     },
     {
         title: "GINASTA?",
-        content: "Toca nos pés com as mãos sem\ndobrar os joelhos ou bebe 3 goles."
+        content: "Toca nos pés com as mãos sem dobrar os joelhos ou bebe 3 goles."
     },
     {
         title: "COLECIONADORES",
@@ -485,7 +477,7 @@ window.cards = [
     },
     {
         title: "2 VERDADES 1 MENTIRA",
-        content: "Quem não conseguir adivinhar\na mentira bebe."
+        content: "Quem não conseguir adivinhar a mentira bebe."
     },
     {
         title: "CARTA DA BEBIDA",
@@ -493,7 +485,7 @@ window.cards = [
     },
     {
         title: "FRASE INFINITA",
-        content: "O primeiro a dizer a frase incorretamente\nou a ser burro bebe."
+        content: "O primeiro a dizer a frase incorretamente ou a ser burro bebe."
     },
     {
         title: "NO MATH",
@@ -501,7 +493,7 @@ window.cards = [
     },
     {
         title: "EXPOSED",
-        content: "Todos os jogadores devem ler\na última mensagem que enviaram."
+        content: "Todos os jogadores devem ler a última mensagem que enviaram."
     },
     {
         title: "VICIADO?",
@@ -509,7 +501,7 @@ window.cards = [
     },
     {
         title: "REI MANDA",
-        content: "Escolhe alguém para fazer\nqualquer coisa que tu queiras."
+        content: "Escolhe alguém para fazer qualquer coisa que tu queiras."
     },
     {
         title: "ESTÁ ERRADO",
@@ -517,19 +509,19 @@ window.cards = [
     },
     {
         title: "ROOMIES",
-        content: "O teu colega de quarto passa\na ser o teu drinking buddy."
+        content: "O teu colega de quarto passa a ser o teu drinking buddy."
     },
     {
         title: "PROBABLY A VIRGIN",
-        content: "Jogadores de LOL,\natual ou antigo, bebem."
+        content: "Jogadores de LOL, atual ou antigo, bebem."
     },
     {
         title: "ANTIGOS AMIGOS",
-        content: "A pessoa que conheces há mais tempo do grupo\npassa a ser o teu drinking buddy."
+        content: "A pessoa que conheces há mais tempo do grupo passa a ser o teu drinking buddy."
     },
     {
-        title: "SMOKE HOUR ★",
-        content: "Quem quiser fumar tem de acabar o copo."
+        title: "SMOKE HOUR",
+        content: "Quem já fumou ou quiser fumar tem de acabar o copo."
     },
     {
         title: "RODAR OS COPOS",
@@ -537,7 +529,7 @@ window.cards = [
     },
     {
         title: "GUERRA DE POLEGARES",
-        content: "Todos, começando em ti,\nfazem pares com a pessoa à sua direita.\nOs perdedores bebem."
+        content: "Todos, começando em ti, fazem pares com a pessoa à sua direita.\nOs perdedores bebem."
     },
     {
         title: "GANHASTE NA VIDA",
@@ -557,11 +549,11 @@ window.cards = [
     },
     {
         title: "NÃO LEIAS ESTA CARTA",
-        content: "Se lês-te esta carta em voz alta bebe."
+        content: "Se leste bebe."
     },
     {
         title: "EU NUNCA",
-        content: "Todos os jogadores, a começar em ti\ndizem uma coisa que nunca fizeram.\nQuem o fez, bebe."
+        content: "Todos os jogadores, a começar em ti dizem uma coisa que nunca fizeram.\nQuem o fez, bebe."
     },
     {
         title: "NÃO ME QUEIRAS VER CEGA, LUCIANA",
@@ -573,7 +565,7 @@ window.cards = [
     },
     {
         title: "ANSIEDADE",
-        content: "Troca de telemóvel com a pessoa à tua direita\ne ambos podem mandar uma mensagem\npara quem quiserem."
+        content: "Troca de telemóvel com a pessoa à tua direita e ambos podem mandar uma mensagem para quem quiserem."
     },
     {
         title: "JUMP AND RUN",
@@ -589,7 +581,7 @@ window.cards = [
     },
     {
         title: "RECÉM NASCIDOS",
-        content: "Os dois jogadores mais novos bebem\ne ficam a mamar no polegar\naté que seja a sua vez de jogar."
+        content: "Os dois jogadores mais novos bebem e ficam a mamar no polegar até que seja a sua vez de jogar."
     },
     {
         title: "QUEM É MAIS PROVÁVEL DE _______?",
@@ -601,11 +593,11 @@ window.cards = [
     },
     {
         title: "WTF?",
-        content: "Deita-te no chão e deixa que alguém se sente\nno teu peito e que, repetidamente, te toque na cara\nenquanto dizes 10 tipos de ________."
+        content: "Deita-te no chão e deixa que alguém se sente no teu peito e que, repetidamente, te toque na cara\nenquanto dizes 10 tipos de ________."
     },
     {
         title: "LAP DANCE",
-        content: "Faz um lap dance\nà segunda pessoa à tua direita."
+        content: "Faz um lap dance à segunda pessoa à tua direita."
     },
     {
         title: "SONHOU?",
@@ -633,11 +625,11 @@ window.cards = [
     },
     {
         title: "ENGRAÇADINHO",
-        content: "Diz uma piada seca.\nQuem rir bebe, se ninguém\nrir bebe 3."
+        content: "Diz uma piada seca.\nQuem rir bebe, se ningué rir bebe 3."
     },
     {
         title: "FASHION ICONS",
-        content: "Troca uma peça de roupa\ncom a pessoa à tua frente."
+        content: "Troca uma peça de roupa com a pessoa à tua frente."
     },
     {
         title: "É VERDADE QUE …?",
@@ -645,7 +637,7 @@ window.cards = [
     },
     {
         title: "VAI TE FODER",
-        content: "Durante uma ronda ninguém\npode gritar, o primeiro\na fazê-lo acaba o copo."
+        content: "Durante uma ronda ninguém pode gritar, o primeiro a fazê-lo acaba o copo."
     },
     {
         title: "CASA BEIJA MATA",
@@ -653,11 +645,11 @@ window.cards = [
     },
     {
         title: "PLEBEU",
-        content: "Faz o que o jogador à tua\nesquerda quiser."
+        content: "Faz o que o jogador à tua esquerda quiser."
     },
     {
         title: "BIGODE",
-        content: "Desenha um bigode à segunda\npessoa à tua esquerda com\numa caneta enfiada no cu."
+        content: "Desenha um bigode à segunda pessoa à tua esquerda com uma caneta enfiada no cu."
     },
     {
         title: "CASA BEIJA MATA",
@@ -665,7 +657,7 @@ window.cards = [
     },
     {
         title: "OLHA INTENSO",
-        content: "Jogo do sério com a pessoa\nà tua frente.\nQuem perder bebe."
+        content: "Jogo do sério com a pessoa à tua frente.\nQuem perder bebe."
     },
     {
         title: "RODADA DE EU JÁ",
@@ -677,27 +669,27 @@ window.cards = [
     },
     {
         title: "CHOREM ANÕES",
-        content: "Tenta tocar no teto sem saltar\nquem não conseguir tocar bebe.\nNo caso de ausência de teto, bebem os\n3 jogadores mais baixos."
+        content: "Tenta tocar no teto sem saltar quem não conseguir tocar bebe.\nNo caso de ausência de teto, bebem os 3 jogadores mais baixos."
     },
     {
         title: "GO PISS GIRL",
-        content: "O próximo jogador a ir mijar tem\nde acabar o copo."
+        content: "O próximo jogador a ir mijar tem de acabar o copo."
     },
     {
         title: "FOOT FETISH",
-        content: "A primeira pessoa a tocar\nnos teus pés distribui 3 goles."
+        content: "A primeira pessoa a tocar nos teus pés distribui 3 goles."
     },
     {
         title: "MINIONS",
-        content: "Come o máximo que conseguires\nde uma banana numa só dentada."
+        content: "Come o máximo que conseguires de uma banana numa só dentada (não morram pfv)."
     },
     {
         title: "POR TI",
-        content: "Mete esta carta à frente de alguém\ndurante uma ronda essa pessoa\nbebe por ti."
+        content: "Mete esta carta à frente de alguém durante uma ronda essa pessoa bebe por ti."
     },
     {
         title: "DOBRO",
-        content: "Mete esta carta à frente de alguém\ndurante uma ronda.\nEssa pessoa bebe a dobrar."
+        content: "Mete esta carta à frente de alguém durante uma ronda.\nEssa pessoa bebe a dobrar."
     },
     {
         title: "INVERTE O SENTIDO DA RODA",
@@ -709,103 +701,99 @@ window.cards = [
     },
     {
         title: "BOCA BÊBADA",
-        content: "Tens que beijar o número de jogadores\nque quiseres, mas tens que dar 1 gole\npor cada jogador que ficar por beijar."
+        content: "Tens que beijar o número de jogadores que quiseres, mas tens que dar 1 gole por cada jogador que ficar por beijar."
     },
     {
         title: "ENEMIES TO LOVERS",
-        content: "Beija a pessoa que menos gostas\nda roda."
+        content: "Beija a pessoa que menos gostas da roda."
     },
     {
         title: "BUM BUM TAM TAM",
-        content: "Dá 1 palmada no rabo do\njogador à tua direita."
+        content: "Dá 1 palmada no rabo do jogador à tua direita."
     },
     {
         title: "CUPIDO SOLITÁRIO",
-        content: "Os 2 jogadores à tua esquerda têm\nde se beijar, tal como os 2 à tua direita.\nCaso um se recuse os 5 bebem."
+        content: "Os 2 jogadores à tua esquerda têm de se beijar, tal como os 2 à tua direita.\nCaso um se recuse os 5 bebem."
     },
     {
         title: "VIRGINDADE",
-        content: "Mostra 3 imagens que descrevem\na tua perda de virgindade.\nSe és virgem bebe 3."
+        content: "Mostra 3 imagens que descrevem a tua perda de virgindade.\nSe és virgem bebe 3."
     },
     {
         title: "VANILAN’T",
-        content: "A começar em ti, todos na roda\nconfessam um kink."
+        content: "A começar em ti, todos na roda confessam um kink."
     },
     {
         title: "ÁRBITRO! REPETIÇÕES?",
-        content: "Beija quem já beijaste na roda.\nSe (ainda) não beijaste ninguém o\ngrupo escolhe 2 pessoas para beijares."
+        content: "Beija quem já beijaste na roda.\nSe (ainda) não beijaste ninguém o grupo escolhe 2 pessoas para beijares."
     },
     {
         title: "CADEIRINHA",
-        content: "Senta-te no colo da pessoa\nque tiver o copo mais vazio."
-    },
-    {
-        title: "ICÓNICO",
-        content: "Cada 1 grava 1 vídeo\na dizer quantos copos\nbebeu e o estado em que está."
+        content: "Senta-te no colo da pessoa que tiver o copo mais vazio."
     },
     {
         title: "MASKED",
-        content: "Tens que acompanhar todos\nos desafios durante uma ronda."
+        content: "Tens que acompanhar todos os desafios durante uma ronda."
     },
     {
         title: "RAINHA MANDA",
-        content: "Acrescenta uma regra durante\n1 ronda."
+        content: "Acrescenta uma regra durante 1 ronda."
     },
     {
         title: "BOA SORTE",
-        content: "A partir de agora todos assumem\no nome da pessoa à sua direita."
+        content: "A partir de agora todos assumem o nome da pessoa à sua direita."
     },
     {
         title: "CADERNETA DE CROMOS",
-        content: "Diz o nome de uma pessoa.\nQuem já comeu alguém com\nesse nome bebe."
+        content: "Diz o nome de uma pessoa.\nQuem já comeu alguém com esse nome bebe."
     },
     {
         title: "BEIJO GREGO",
-        content: "Lambe o pescoço da pessoa\nque tens menos intimidade."
+        content: "Lambe o pescoço da pessoa que tens menos intimidade."
     },
     {
         title: "CELIBATO",
-        content: "Se já te masturbaste hoje\nbebe 2."
+        content: "Se já te masturbaste hoje bebe 2."
     },
     {
         title: "OTEBAFLA",
-        content: "Diz o alfabeto ao contrário\nbebe pelo número de erros."
+        content: "Diz o alfabeto ao contrário bebe pelo número de erros."
     },
     {
         title: "CAOS",
-        content: "Quando quiseres toca na parede\no último a tocar bebe."
+        content: "Quando quiseres toca na parede o último a tocar bebe."
     },
     {
         title: "MODDED-SPOTIFY.APK",
-        content: "Tens de começar uma música.\nSe a pessoa à tua esquerda não\nsouber completar bebe 2."
+        content: "Tens de começar uma música.\nSe a pessoa à tua esquerda não souber completar bebe 2."
     },
     {
         title: "MEDUSA",
-        content: "Manda beber quem apanhares\na olhar-te nos olhos."
+        content: "Manda beber quem apanhares a olhar-te nos olhos."
     },
     {
         title: "SENTADONA",
-        content: "Senta-te no colo da pessoa\nque tiver o copo mais cheio."
+        content: "Senta-te no colo da pessoa que tiver o copo mais cheio."
     },
     {
         title: "DEJA VU",
-        content: "Manda beber 5 goles por cada\ncopo que estiver vazio."
+        content: "Manda beber 5 goles por cada copo que estiver vazio."
     },
     {
         title: "ESQUERDALHA",
-        content: "Bebe se já tiveres comido a pessoa\nà tua esquerda.\nBebe a dobrar se tiver sido mais\nque uma vez."
+        content: "Bebe se já tiveres comido a pessoa à tua esquerda.\nBebe a dobrar se tiver sido mais\nque uma vez."
     },
     {
         title: "FOI BOM ENQUANTO DUROU",
-        content: "Todos os jogadores que tiverem\nna casa 70+ recuam 20 casas."
+        content: "Todos os jogadores que tiverem na casa 70+ recuam 20 casas."
     },
     {
         title: "SWISH SWISH BITCH",
-        content: "Escolhe duas pessoas\npara trocarem os peões."
+        content: "Escolhe duas pessoas para trocarem os peões."
     },
     {
         title: "NUNCA FOI BOM",
-        content: "Todos os jogadores que estiverem\nna casa 50+ recuam 5 casas."
+        content: "Todos os jogadores que estiverem na casa 50+ recuam 5 casas."
     },
     {
         title: "ARE WE BESTIES?",
@@ -813,7 +801,7 @@ window.cards = [
     },
     {
         title: "GIRL MATH",
-        content: "A pessoa à tua esquerda anda 10 casas\npara a frente mas se calhar numa\ncasa para beber, bebes o dobro\nque te calhou no dado."
+        content: "A pessoa à tua esquerda anda 10 casas para a frente mas se calhar numa casa para beber, bebes o dobro que te calhou no dado."
     },
     {
         title: "THIS SITUATIONSHIP HAS TO END",
@@ -821,15 +809,15 @@ window.cards = [
     },
     {
         title: "COLHÃO ESQUERDO",
-        content: "A pessoa à tua esquerda\nanda 8 casas para trás.\nSe calhar numa casa branca\nambos bebem 3."
+        content: "A pessoa à tua esquerda anda 8 casas para trás.\nSe calhar numa casa branca\nambos bebem 3."
     },
     {
         title: "MOONWALK",
-        content: "Anda para trás o número de casas\nque corresponde ao número\nde pessoas que já beijaste na roda."
+        content: "Anda para trás o número de casas que corresponde ao número de pessoas que já beijaste na roda."
     },
     {
         title: "SI FODENDO BEBADX",
-        content: "A carta fica à tua frente 1 ronda.\nCada vez que beberes recuas\n1 casa."
+        content: "A carta fica à tua frente 1 ronda.\nCada vez que beberes recuas 1 casa."
     },
     {
         title: "DEAD HARD",
@@ -837,11 +825,11 @@ window.cards = [
     },
     {
         title: "VAMOS VER QUEM É BURRO",
-        content: "Quando quiseres pousa\no polegar na mesa\no último a fazer o mesmo bebe."
+        content: "Quando quiseres pousa o polegar na mesa o último a fazer o mesmo bebe."
     },
     {
         title: "KARAOQUEER",
-        content: "Diz uma palavra.\nO primeiro a cantar uma música\ncom a palavra distribui 5 goles."
+        content: "Diz uma palavra.\nO primeiro a cantar uma música com a palavra distribui 5 goles."
     },
     {
         title: "TOQUEM-SE",
@@ -849,11 +837,11 @@ window.cards = [
     },
     {
         title: "CANHOTX",
-        content: "Sempre que a pessoa\nà tua esquerda beber\ntu também bebes."
+        content: "Sempre que a pessoa à tua esquerda beber tu também bebes."
     },
     {
         title: "DESTRX",
-        content: "Sempre que a pessoa\nà tua direita beber\ntu também bebes."
+        content: "Sempre que a pessoa à tua direita beber tu também bebes."
     },
     {
         title: "AVANÇA 5 CASAS",
@@ -869,19 +857,19 @@ window.cards = [
     },
     {
         title: "BODY SHOT",
-        content: "Bebe um body shot de um\njogador a tua escolha."
+        content: "Bebe um body shot de um jogador a tua escolha."
     },
     {
         title: "OLHOS PROIBIDOS",
-        content: "Todos olham para o chão, ao fim da contagem\nlevanta a cabeça e olha para alguém.\nSe essa pessoa também estiver olhar para ti\nos dois saem do jogo e bebem 2.\nRepete até só sobrarem 1/2."
+        content: "Todos olham para o chão, ao fim da contagem levanta a cabeça e olha para alguém.\nSe essa pessoa também estiver olhar para ti os dois saem do jogo e bebem 2.\nRepete até só sobrarem 1/2."
     },
     {
         title: "RONDA DE _____",
-        content: "Escolhe um tema.\nA primeira pessoa a não saber\nou repetir bebe."
+        content: "Escolhe um tema.\nA primeira pessoa a não saber ou repetir bebe."
     },
     {
         title: "SR. GELO",
-        content: "Quando quiseres “congela”\no último a fazer bebe e passa\na ser o senhor gelo."
+        content: "Quando quiseres “congela” o último a fazer bebe e passa a ser o senhor gelo."
     },
     {
         title: "AVANÇA 3 CASAS",
@@ -897,7 +885,7 @@ window.cards = [
     },
     {
         title: "II HANDS II HEAVEN",
-        content: "O último a levantar\nas duas mãos bebe."
+        content: "O último a levantar as duas mãos bebe."
     },
     {
         title: "RECUA 12 CASAS",
