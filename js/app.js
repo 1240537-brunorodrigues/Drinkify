@@ -52,7 +52,7 @@ document.addEventListener("DOMContentLoaded", () => {
     if (diceBtn) {
         diceBtn.addEventListener("click", () => {
             const roll = Math.floor(Math.random() * 6) + 1;
-            showToast(`You rolled a ${roll}!`);
+            showToast(`Rodaste um ${roll}!`);
             // Optionally: dispatch a custom event with the roll value:
             // window.dispatchEvent(new CustomEvent("diceRolled", { detail: { roll } }));
         });
