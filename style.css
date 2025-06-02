@@ -92,16 +92,18 @@ body {
 @keyframes popIn {
     0% {
         opacity: 0;
-        transform: scale(0.5);
+        transform: translate(-50%, -50%) scale(0.5);
     }
     70% {
         opacity: 1;
-        transform: scale(1.05);
+        transform: translate(-50%, -50%) scale(1.05);
     }
     100% {
-        transform: scale(1);
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1);
     }
 }
+
 
 @keyframes pulse {
     0% {
@@ -178,10 +180,11 @@ body {
    MENU-CONTAINER (fixo e centralizado)
    ================================ */
 .menu-container {
-    position: fixed;
+    position: fixed;              /* fixa em relação à viewport */
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+
     max-width: 480px;
     width: 90vw;
     padding: 30px;
@@ -190,13 +193,17 @@ body {
     border-radius: var(--border-radius-lg);
     box-shadow: var(--shadow-lg);
     overflow: hidden;
+
+    /* Agora a animação popIn invoca a keyframe corrigida acima */
     animation: popIn 0.5s var(--transition-slow) forwards;
-    display: none;
+
+    display: none;             /* será “block” quando eu adicionar .active */
 }
 
 .menu-container.active {
     display: block;
 }
+
 
 /* ================================
    HOME MENU
@@ -257,25 +264,35 @@ body {
 }
 
 /* ================================
-   5) SECTION-CONTAINER (fluxo normal)
+   SECTION-CONTAINER (fixo e centralizado)
    ================================ */
 .section-container {
-    margin: 20px auto;
+    /* Torna a seção fixa na viewport, permitindo centralização exata */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
     max-width: 480px;
     width: 90vw;
+
     background-color: var(--neutral-lightest);
     color: var(--text-on-light-bg);
+
     border-radius: var(--border-radius-lg);
     box-shadow: var(--shadow-lg);
     overflow: hidden;
-    position: relative;
+
+    /* Animação de entrada (mesma popIn usada no menu) */
     animation: popIn 0.5s var(--transition-slow) forwards;
-    display: none;
+
+    display: none; /* só aparece quando adicionamos .active */
 }
 
 .section-container.active {
     display: block;
 }
+
 
 /* ================================
    6) SECTION HEADER
