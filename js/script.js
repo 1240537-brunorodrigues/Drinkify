@@ -157,13 +157,12 @@ function showQuestions(index) {
     que_text.innerHTML = `<span>${qObj.numb}. ${qObj.question}</span>`;
 
     // 3) Renderiza as 4 opções embaralhadas
-    const optionHTML = `
+    option_list.innerHTML = `
     <div class="option"><span>${qObj.options[randOrder[0]]}</span></div>
     <div class="option"><span>${qObj.options[randOrder[1]]}</span></div>
     <div class="option"><span>${qObj.options[randOrder[2]]}</span></div>
     <div class="option"><span>${qObj.options[randOrder[3]]}</span></div>
   `;
-    option_list.innerHTML = optionHTML;
 
     // 4) Adiciona event listener em cada opção
     const allOptions = option_list.querySelectorAll(".option");
