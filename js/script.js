@@ -154,7 +154,7 @@ function showQuestions(index) {
 
     // 2) Renderiza a pergunta
     const qObj = questions[index];
-    que_text.innerHTML = `<span>${qObj.numb}. ${qObj.question}</span>`;
+    que_text.innerHTML = `<span>${qObj.question}</span>`;
 
     // 3) Renderiza as 4 opções embaralhadas
     option_list.innerHTML = `
