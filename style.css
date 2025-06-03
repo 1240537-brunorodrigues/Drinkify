@@ -120,6 +120,17 @@ body {
     }
 }
 
+@keyframes popScale {
+    0% {
+        opacity: 0;
+        transform: scale(0.5);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
 /* ================================
    1) DICE BUTTON
    ================================ */
@@ -267,7 +278,7 @@ body {
    SECTION-CONTAINER (fixo e centralizado)
    ================================ */
 .section-container {
-    /* Torna a seção fixa na viewport, permitindo centralização exata */
+    /* Torna a secção fixa na viewport, permitindo centralização exata */
     position: fixed;
     top: 50%;
     left: 50%;
@@ -420,6 +431,19 @@ body {
 /* ================================
    8) QUIZ BOX (Draw a Question)
    ================================ */
+
+/* 1) Animação apenas de escala, sem translate */
+@keyframes popScale {
+    0% {
+        opacity: 0;
+        transform: scale(0.5);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
 .quiz_box {
     margin: 0;
     display: none;
@@ -527,8 +551,12 @@ body {
     transform: translateY(-50%) scale(1);
 }
 
-.quiz_box .option.correct .icon { color: var(--text-on-dark-bg); }
-.quiz_box .option.wrong .icon { color: var(--text-on-dark-bg); }
+.quiz_box .option.correct .icon {
+    color: var(--text-on-dark-bg);
+}
+.quiz_box .option.wrong .icon {
+    color: var(--text-on-dark-bg);
+}
 
 .quiz_box footer {
     display: flex;
@@ -559,13 +587,14 @@ body {
     letter-spacing: 1px;
     cursor: pointer;
     transition: transform var(--transition-fast), box-shadow var(--transition-fast);
-    display: none;
+    display: none; /* só aparece com .show */
     box-shadow: var(--shadow-sm);
 }
 
 .quiz_box footer .next_btn.show {
     display: inline-block;
-    animation: popIn 0.3s var(--transition-medium) forwards;
+    /* substitui popIn por popScale para não deslocar o botão */
+    animation: popScale 0.3s var(--transition-medium) forwards;
 }
 
 .quiz_box footer .next_btn:hover {
@@ -576,6 +605,7 @@ body {
 .quiz_box footer .next_btn:active {
     transform: translateY(-1px) scale(0.98);
 }
+
 
 /* ================================
    9) RESULT BOX
