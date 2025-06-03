@@ -1010,7 +1010,148 @@ window.cards = [
     {
         title: "TWIST NO FINAL",
         content: "Inventa uma nova regra para ser aplicada até ao fim do jogo. Se for rejeitada por votação, bebes."
+    },
+    {
+        title: "DIZ-ME O QUE QUERES",
+        content: "Sussurra ao ouvido da pessoa à tua direita algo que farias com ela. Se recusar ouvir, ambos bebem."
+    },
+    {
+        title: "GOSTOSO(A) DEMAIS",
+        content: "Quem achas que beija melhor nesta roda? Diz em voz alta. Se não escolheres ninguém, bebes 4."
+    },
+    {
+        title: "SEXY VOICE",
+        content: "Faz um gemido realista ou convence alguém a fazer por ti. Quem fizer distribui 3 goles."
+    },
+    {
+        title: "FAZ UM VIDEO HOT",
+        content: "Grava um vídeo de 5 segundos como se estivesses a seduzir o teu crush. Se recusares, bebes."
+    },
+    {
+        title: "CUPIDO CANSADO",
+        content: "Escolhe duas pessoas para darem um beijo. Se recusarem, bebes tu."
+    },
+    {
+        title: "SEXO TÁCITO",
+        content: "Durante uma ronda, comunica apenas com expressões faciais sedutoras. Se quebrares, bebes 3."
+    },
+    {
+        title: "PEGA-ME",
+        content: "Deixa alguém da roda dar-te uma palmada onde quiser. Se recusares, bebes o copo todo."
+    },
+    {
+        title: "PAPAI CHEGOU",
+        content: "Diz como seria uma noite contigo. O grupo vota: se for pouco convincente, bebes 5."
+    },
+    {
+        title: "MUDO",
+        content: "Não podes falar durante uma ronda. Se quebrares, bebes 3."
+    },
+    {
+        title: "INVERTE TUDO",
+        content: "Até voltares a jogar, quando for para beberes, escolhes quem bebe por ti. Mas se disserem não, tu bebes o dobro."
+    },
+    {
+        title: "TÁ DANDO TIRO",
+        content: "Cai no chão de forma dramática. Quem não imitar, bebe 2."
+    },
+    {
+        title: "LOUCURA CONTROLADA",
+        content: "Escolhe alguém para trocar de lugar contigo no tabuleiro. Se essa pessoa reclamar, bebes 4."
+    },
+    {
+        title: "TRÍPLICE CONFUSÃO",
+        content: "Todos trocam de lugar com alguém à escolha. Quem não conseguir convencer alguém, bebe."
+    },
+    {
+        title: "CARTA REVIRAVOLTA",
+        content: "Troca a tua próxima penalização com a de alguém. Mas não digas a ninguém até acontecer."
+    },
+    {
+        title: "DESAFIO À MODA ANTIGA",
+        content: "Dá um beijo na mão da pessoa mais sexy do grupo ou deixa-a dar-te uma chapada carinhosa."
+    },
+    {
+        title: "STRIP ALEATÓRIO",
+        content: "Vira o dado. Par = tiras uma peça de roupa. Ímpar = mandas alguém tirar. Se recusar, ambos bebem."
+    },
+    {
+        title: "SEXY GAME MASTER",
+        content: "Senta-te numa posição provocante até à tua próxima vez. Quem olhar bebe 2."
+    },
+    {
+        title: "PIMENTA CIS",
+        content: "Durante 1 ronda, não podes dizer 'beber', 'sexo' nem 'tu'. Se disseres, bebes 3 e tiras uma peça de roupa."
+    },
+    {
+        title: "HOT OR NOT",
+        content: "O grupo decide se estás sexy hoje. Se a maioria disser sim, distribuis 5 goles. Se não, bebes e tiras um acessório."
+    },
+    {
+        title: "DESEJO INDESEJADO",
+        content: "Escolhe alguém que nunca beijarias e dá-lhe um elogio sexy. Se recusares, bebes 4."
+    },
+    {
+        title: "FINGE UM ORGASMO",
+        content: "Quem fizer o melhor orgasmo falso distribui 3 goles. Os restantes bebem."
+    },
+    {
+        title: "CONTO ERÓTICO CAÓTICO",
+        content: "Inventa uma micro-história erótica com 2 pessoas da roda e distribui 3 goles. Se não quiseres, elas distribuem goles."
+    },
+    {
+        title: "SEXY STAREDOWN",
+        content: "Faz um olhar intenso e sexy a alguém. O primeiro a desviar o olhar bebe e dá uma volta na cadeira."
+    },
+    {
+        title: "NOME DO EX",
+        content: "Diz o nome do teu último ex e algo que ele(a) fazia bem na cama. Se recusares, bebes o dobro."
+    },
+    {
+        title: "TOU BEM, JUROOH",
+        content: "Durante uma ronda só podes falar com sotaque brasileiro dramático. Se te esqueceres, bebe 4."
+    },
+    {
+        title: "GEME SEM RAZÃO",
+        content: "Gema como se tivesses a melhor noite da tua vida… durante 10 segundos. Quem te interromper, bebe. Se não conseguires termina o copo."
+    },
+    {
+        title: "ALGUÉM DISSE GAY?",
+        content: "Cada vez que alguém disser uma palavra que comece por 'C', grita 'YASSS'. Se esqueceres, bebes 2."
+    },
+    {
+        title: "TIKTOK LIVE",
+        content: "Durante uma ronda, age como se estivesses numa live cringe. Cada 'presente' que alguém finge mandar, bebes 1 gole."
+    },
+    {
+        title: "KANYE MODE",
+        content: "Tens 30 segundos para dizer porque és melhor que todos aqui. Se ninguém aplaudir, bebes o copo."
+    },
+    {
+        title: "WE'VE GOT TO CELEBRATE",
+        content: "Durante 1 ronda, só podes responder com sons de animais. Quem tenta perceber, bebe."
+    },
+    {
+        title: "VIREI POWERPOINT",
+        content: "Levanta-te e apresenta a tua vida em 3 tópicos. Se alguém disser que ficou confuso, bebes."
+    },
+    {
+        title: "TIKTOK DE COZINHA",
+        content: "Finge estar a fazer uma receita. Se alguém rir, essa pessoa bebe. Se ninguém rir, bebes tu."
+    },
+    {
+        title: "GIRA, GRITA, GRITA MAIS",
+        content: "Dá uma volta em ti mesmo e grita o nome de alguém famoso. Se ninguém perceber quem é, bebes 3."
+    },
+    {
+        title: "PEIDO SOCIAL",
+        content: "De agora em diante, quem quiser faz um barulho de peido. O primeiro a rir bebe. Se ninguém rir, quem fez o som bebe em vergonha alheia."
+    },
+    {
+        title: "PALAVRA SEGURA: BANANA",
+        content: "De agora em diante, quem quiser pode gritar 'BANANA' e obrigar toda a gente a parar por 5 segundos. Limitado a 1x por jogador. Quem se mexer acaba o copo."
     }
+
     //     {
     //         title: "a",
     //         content: "b"
