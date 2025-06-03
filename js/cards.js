@@ -894,5 +894,130 @@ window.cards = [
     {
         title: "RECUA 9 CASAS",
         content: ""
+    },
+    {
+        title: "PASSOU DOS LIMITES",
+        content: "Conta o segredo mais escandaloso que sabes de alguém presente. Se recusares, todos bebem 2 por ti."
+    },
+    {
+        title: "LAMBIDA RUSSA",
+        content: "Lambe a cara de alguém da tua escolha ou acaba a bebida."
+    },
+    {
+         title: "HIT ME BABY",
+         content: "Dá um estalo (de leve!) ou palmada a alguém… ou levas tu e bebes."
+     },
+    {
+        title: "ESPIA INTERNACIONAL",
+        content: "Tira uma selfie com a pessoa com quem menos falas e publica com a legenda: “Aliados inesperados”."
+    },
+    {
+        title: "X-RATED HISTORY",
+        content: "Mostra a última imagem guardada no telemóvel. Se for sexy, distribui 4 goles. Se recusares, bebes 5."
+    },
+    {
+        title: "LIMPA A BABA",
+        content: "Beija o pescoço da pessoa à tua frente. Se recusares, ambos terminam o copo."
+    },
+    {
+        title: "AQUECE-ME",
+        content: "Dá um abraço apertado à pessoa à tua esquerda durante 30 segundos ou tira uma peça de roupa."
+    },
+    {
+        title: "MENTES SUJAS",
+        content: "Desenha algo num papel sem usar palavras. Se alguém adivinhar, distribuis 3 goles. Se ninguém adivinhar, bebes tu."
+    },
+    {
+        title: "MESTRE DE COPOS",
+        content: "Até à próxima ronda, todos os goles têm de ser brindados contigo. Quem se esquecer, bebe mais 2."
+    },
+    {
+        title: "NUDES NA RODA",
+        content: "Quem já mandou nudes a alguém na roda, bebe. Se foram recebidos também, bebe o dobro."
+    },
+    {
+        title: "PRAZER CULPOSO",
+        content: "Conta um hábito sexual que tenhas vergonha de admitir. Se não quiseres, tira uma peça de roupa."
+    },
+    {
+        title: "NSFW",
+        content: "Mostra a última imagem da tua galeria que não podes mostrar à tua mãe. Ou acaba a bebida."
+    },
+    {
+        title: "SEDUCTION MODE",
+        content: "Olha nos olhos de alguém e diz a frase mais sexy que conseguires. Se a pessoa rir, ela bebe. Se não rir, tu bebes."
+    },
+    {
+        title: "TENTAÇÃO",
+        content: "Durante uma ronda, encosta-te no ombro da pessoa mais atraente da roda. Se te recusares, bebes 5."
+    },
+    {
+        title: "MEU TIPO DEPOIS DE 3 COPOS",
+        content: "Escolhe alguém que nunca pensaste querer comer... até hoje. Toca-lhe de forma sensual ou bebe."
+    },
+    {
+        title: "PSICÓLOGO DE BEBÊDA",
+        content: "Diagnostica um trauma não resolvido a cada jogador com base em 1 frase. Cada diagnóstico errado = 1 gole."
+    },
+    {
+        title: "ENTREVISTA DE EMPREGO",
+        content: "O grupo escolhe uma profissão. Tens 30 segundos para convencer o grupo que és ideal para esse cargo. Se não convenceres ninguém, bebes."
+    },
+    {
+        title: "PSICOTÉLICO",
+        content: "Finge estar sob efeito de drogas durante 1 ronda. Se quebrares personagem, bebes 3."
+    },
+    {
+        title: "TÍTULO DA TUA VIDA",
+        content: "Cada jogador inventa um nome de filme baseado na tua vida. Escolhes o melhor — esse distribui 5 goles."
+    },
+    {
+        title: "CAOS NO GRUPO",
+        content: "Troca os copos de todas as pessoas aleatoriamente durante 1 ronda. Se alguém reclamar, bebe 2."
+    },
+    {
+        title: "HORA DO JUÍZO",
+        content: "Toda a gente vota em quem seria eliminado primeiro num reality show. A pessoa escolhida bebe."
+    },
+    {
+        title: "DADDY ISSUES?",
+        content: "Imita como pensas que seria o dirty talk da pessoa à tua frente. Se recusares, bebes 4."
+    },
+    {
+        title: "SEXO TÉCNICO",
+        content: "Explica como darias prazer à pessoa que está de frente para ti… como se estivesses num TED Talk. Ou bebe 5."
+    },
+    {
+        title: "SIRI, I'M HORNY",
+        content: "Lê em voz alta uma pesquisa recente do teu histórico que seja minimamente sexy. Se não tiveres, bebes o copo todo."
+    },
+    {
+        title: "NÃO FOI BEM UM BEIJO",
+        content: "Beija uma parte do corpo da pessoa à tua esquerda que não seja a boca. Se recusares, ambos bebem."
+    },
+    {
+        title: "VEM COMIGO",
+        content: "Passa 1 ronda com a tua testa encostada à testa de um jogador à escolha do grupo. Quem rir, bebe."
+    },
+    {
+        title: "TENS O QI DE UM COTONETE?",
+        content: "Faz uma charada ao grupo. Quem errar, bebe. Se ninguém acertar, bebes tu."
+    },
+    {
+        title: "MANIPULADORZINHO",
+        content: "Tenta convencer alguém a beber por ti sem dizer 'por favor'. Se conseguires, estás livre. Se não, bebes tu."
+    },
+    {
+        title: "3AM THOUGHTS",
+        content: "Partilha um pensamento aleatório que já tiveste enquanto mijavas. Se não quiseres, todos os outros inventam um por ti e tu escolhes o pior para beber."
+    },
+    {
+        title: "TWIST NO FINAL",
+        content: "Inventa uma nova regra para ser aplicada até ao fim do jogo. Se for rejeitada por votação, bebes."
     }
+    //     {
+    //         title: "a",
+    //         content: "b"
+    //     }
+
 ];
