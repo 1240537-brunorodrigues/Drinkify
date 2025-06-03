@@ -684,10 +684,6 @@ window.cards = [
         content: "Come o máximo que conseguires de uma banana numa só dentada (não morram pfv)."
     },
     {
-        title: "POR TI",
-        content: "Mete esta carta à frente de alguém durante uma ronda essa pessoa bebe por ti."
-    },
-    {
         title: "DOBRO",
         content: "Mete esta carta à frente de alguém durante uma ronda.\nEssa pessoa bebe a dobrar."
     },
