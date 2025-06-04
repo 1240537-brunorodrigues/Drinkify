@@ -222,9 +222,19 @@ body {
                 opacity var(--transition-medium);
 }
 
+@keyframes slideOut {
+    from {
+        opacity: 1;
+        transform: translate(-50%, -50%);
+    }
+    to {
+        opacity: 0;
+        transform: translate(-150%, -50%);
+    }
+}
+
 .slide-out {
-    transform: translate(-150%, -50%);
-    opacity: 0;
+    animation: slideOut 0.5s forwards;
 }
 
 
