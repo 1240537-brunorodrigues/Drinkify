@@ -61,12 +61,14 @@ document.addEventListener("DOMContentLoaded", () => {
     /*********************************************************
      * 3) Section Navigation Helpers
      *********************************************************/
-    function hideElement(el) {
+function hideElement(el) {
         if (!el) return;
-        el.classList.remove("active");
         el.classList.add("slide-out");
         el.setAttribute("aria-hidden", "true");
-    }
+        setTimeout(() => {
+            el.classList.remove("active", "slide-out");
+        }, 500);
+}
 
     function showElement(el) {
         if (!el) return;
@@ -80,39 +82,33 @@ document.addEventListener("DOMContentLoaded", () => {
      * 1) slide homeMenu left
      * 2) after 500ms, show target section
      */
-    function openSection(sectionEl) {
+function openSection(sectionEl) {
         if (!homeMenu || !sectionEl) return;
 
-        // 1) hide homeMenu
-        homeMenu.classList.add("slide-out");
-        homeMenu.classList.remove("active");
-        homeMenu.setAttribute("aria-hidden", "true");
+        hideElement(homeMenu);
 
-        // 2) after animation, show target
+        // after animation, show target
         setTimeout(() => {
             showElement(sectionEl);
         }, 500);
-    }
+}
 
     /**
      * Slide section ⟶ home
      * 1) slide the section left
      * 2) after 500ms, show homeMenu
      */
-    function returnHome(fromSectionEl) {
+function returnHome(fromSectionEl) {
         if (!homeMenu || !fromSectionEl) return;
 
-        // 1) hide this section
+        // hide this section with animation
         hideElement(fromSectionEl);
 
-        // 2) after animation, show homeMenu
+        // after animation, show homeMenu
         setTimeout(() => {
-            fromSectionEl.classList.remove("slide-out");
-            homeMenu.classList.remove("slide-out");
-            homeMenu.classList.add("active");
-            homeMenu.setAttribute("aria-hidden", "false");
+            showElement(homeMenu);
         }, 500);
-    }
+}
 
     /*********************************************************
      * 4) Wire Home Menu Buttons
