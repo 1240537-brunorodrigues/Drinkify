@@ -215,6 +215,18 @@ body {
     display: block;
 }
 
+/* Animação de saída utilizada pelo JS */
+.menu-container,
+.section-container {
+    transition: transform var(--transition-medium),
+                opacity var(--transition-medium);
+}
+
+.slide-out {
+    transform: translate(-150%, -50%);
+    opacity: 0;
+}
+
 
 /* ================================
    HOME MENU
