@@ -99,7 +99,7 @@ function startQuiz() {
 window.startQuiz = startQuiz;
 
 /* ----------------------------------------
-   6) Função para “resetar” apenas quiz/resulBox (não reseta no_repeat)
+   6) Função para “resetar” apenas quiz/resultBox (não reseta no_repeat)
    ---------------------------------------- */
 function resetQuiz() {
     // Limpa quaisquer timers pendentes
