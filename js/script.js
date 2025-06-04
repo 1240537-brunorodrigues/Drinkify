@@ -217,3 +217,8 @@ function showResult() {
 
     scoreTextEl.innerHTML = `<span>${challenge}</span>`;
 }
+
+// Export para testes em ambiente Node
+if (typeof module !== "undefined" && module.exports) {
+    module.exports = { getRandomQuestionIndex };
+}
